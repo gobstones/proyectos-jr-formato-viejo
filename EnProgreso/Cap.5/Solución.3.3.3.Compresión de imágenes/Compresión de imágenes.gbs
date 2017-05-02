@@ -1,0 +1,31 @@
+program {
+  DescomprimirImagen()
+}
+
+procedure DescomprimirImagen() {
+  repeat (8) {
+    DescomprimirFila()
+    Mover(Norte)
+  }
+  DescomprimirFila()
+  IrAlBorde(Sur)
+}
+
+procedure DescomprimirFila() {
+  repeat (nroBolitasPrimeraCelda_(Negro)-1) {
+    if (puedeMover(Este))
+           { Mover(Este) }
+      else { BOOM("Codificación inválida") }
+    CopiarColorRGB()
+  }
+  IrAlBorde(Oeste)
+  SacarTodasLasDeColor_(Negro)
+}
+
+procedure CopiarColorRGB() {
+  repeat (nroBolitasPrimeraCelda_(Rojo))  { Poner(Rojo)  }
+  repeat (nroBolitasPrimeraCelda_(Verde)) { Poner(Verde) }
+  repeat (nroBolitasPrimeraCelda_(Azul))  { Poner(Azul)  }
+}
+
+

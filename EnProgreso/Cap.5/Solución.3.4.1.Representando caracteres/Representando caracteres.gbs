@@ -1,0 +1,38 @@
+program {
+   G() O() B() S() T() O() N() E() S() 
+   Espacio()
+   J() R()   
+}
+
+procedure AvanzarCursor() { Mover(Este) }
+
+procedure Espacio() { AvanzarCursor() }
+
+procedure A() { Poner_DeColor_( 1, Negro) AvanzarCursor() }
+procedure B() { Poner_DeColor_( 2, Negro) AvanzarCursor() }
+procedure C() { Poner_DeColor_( 3, Negro) AvanzarCursor() }
+procedure D() { Poner_DeColor_( 4, Negro) AvanzarCursor() }
+procedure E() { Poner_DeColor_( 5, Negro) AvanzarCursor() }
+procedure F() { Poner_DeColor_( 6, Negro) AvanzarCursor() }
+procedure G() { Poner_DeColor_( 7, Negro) AvanzarCursor() }
+procedure H() { Poner_DeColor_( 8, Negro) AvanzarCursor() }
+procedure I() { Poner_DeColor_( 9, Negro) AvanzarCursor() }
+procedure J() { Poner_DeColor_(10, Negro) AvanzarCursor() }
+procedure K() { Poner_DeColor_(11, Negro) AvanzarCursor() }
+procedure L() { Poner_DeColor_(12, Negro) AvanzarCursor() }
+procedure M() { Poner_DeColor_(13, Negro) AvanzarCursor() }
+procedure N() { Poner_DeColor_(14, Negro) AvanzarCursor() }
+procedure Ñ() { Poner_DeColor_(15, Negro) AvanzarCursor() }
+procedure O() { Poner_DeColor_(16, Negro) AvanzarCursor() }
+procedure P() { Poner_DeColor_(17, Negro) AvanzarCursor() }
+procedure Q() { Poner_DeColor_(18, Negro) AvanzarCursor() }
+procedure R() { Poner_DeColor_(19, Negro) AvanzarCursor() }
+procedure S() { Poner_DeColor_(20, Negro) AvanzarCursor() }
+procedure T() { Poner_DeColor_(21, Negro) AvanzarCursor() }
+procedure U() { Poner_DeColor_(22, Negro) AvanzarCursor() }
+procedure V() { Poner_DeColor_(23, Negro) AvanzarCursor() }
+procedure W() { Poner_DeColor_(24, Negro) AvanzarCursor() }
+procedure X() { Poner_DeColor_(25, Negro) AvanzarCursor() }
+procedure Y() { Poner_DeColor_(26, Negro) AvanzarCursor() }
+procedure Z() { Poner_DeColor_(27, Negro) AvanzarCursor() }
+

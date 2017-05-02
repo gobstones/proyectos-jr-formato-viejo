@@ -1,0 +1,11 @@
+procedure SacarTodas_(color) {
+  Sacar_DeColor_(nroBolitas(color), color)
+}
+
+procedure Poner_DeColor_(n, color) {
+  repeat(n) { Poner(color) }
+}
+
+procedure Sacar_DeColor_(n, color) {
+  repeat(n) { Sacar(color) }
+}

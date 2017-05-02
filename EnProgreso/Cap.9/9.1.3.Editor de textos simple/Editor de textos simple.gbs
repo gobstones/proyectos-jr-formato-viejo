@@ -1,0 +1,100 @@
+program {
+    PonerLetraH()
+    PonerLetraO()
+    PonerLetraL()
+    PonerLetraA()
+    PonerEspacio()
+    PonerLetraM()
+    PonerLetraU()
+    PonerLetraN()
+    PonerLetraD()
+    PonerLetraO()
+}
+
+// interactive program {
+//       K_ARROW_LEFT  -> { MoverSiHay(Oeste) }
+//       K_ARROW_RIGHT -> { MoverSiHay(Este)  }
+//       K_ARROW_UP    -> { MoverSiHay(Norte) }
+//       K_ARROW_DOWN  -> { MoverSiHay(Sur)   }
+//       K_A           -> { PonerLetraA()     }
+//       …
+//       K_Z           -> { PonerLetraZ()     }
+//       K_SPACE       -> { PonerEspacio()    }
+//       K_ENTER       -> { NuevaLinea()      }
+//       _             -> {                   }
+// }
+
+procedure PonerLetraA() { A() AvanzarCursor() }
+procedure PonerLetraB() { B() AvanzarCursor() }
+procedure PonerLetraC() { C() AvanzarCursor() }
+procedure PonerLetraD() { D() AvanzarCursor() }
+procedure PonerLetraE() { E() AvanzarCursor() }
+procedure PonerLetraF() { F() AvanzarCursor() }
+procedure PonerLetraG() { G() AvanzarCursor() }
+procedure PonerLetraH() { H() AvanzarCursor() }
+procedure PonerLetraI() { I() AvanzarCursor() }
+procedure PonerLetraJ() { J() AvanzarCursor() }
+procedure PonerLetraK() { K() AvanzarCursor() }
+procedure PonerLetraL() { L() AvanzarCursor() }
+procedure PonerLetraM() { M() AvanzarCursor() }
+procedure PonerLetraN() { N() AvanzarCursor() }
+//procedure PonerLetraÑ() { Ñ() AvanzarCursor() }
+procedure PonerLetraO() { O() AvanzarCursor() }
+procedure PonerLetraP() { P() AvanzarCursor() }
+procedure PonerLetraQ() { Q() AvanzarCursor() }
+procedure PonerLetraR() { R() AvanzarCursor() }
+procedure PonerLetraS() { S() AvanzarCursor() }
+procedure PonerLetraT() { T() AvanzarCursor() }
+procedure PonerLetraU() { U() AvanzarCursor() }
+procedure PonerLetraV() { V() AvanzarCursor() }
+procedure PonerLetraW() { W() AvanzarCursor() }
+procedure PonerLetraX() { X() AvanzarCursor() }
+procedure PonerLetraY() { Y() AvanzarCursor() }
+procedure PonerLetraZ() { Z() AvanzarCursor() }
+
+procedure PonerEspacio() { 
+    LimpiarCelda() 
+    AvanzarCursor() 
+}
+
+procedure AvanzarCursor() {
+  if (puedeMover(Este)) 
+        { Mover(Este) }
+   else { NuevaLinea() }
+}
+
+procedure NuevaLinea() { MoverSiHay(Sur) IrAlBorde(Oeste) }
+procedure LimpiarCelda() { SacarTodas_(Negro) }
+
+procedure A() { Poner_DeColor_(1, Negro) }
+procedure B() { Poner_DeColor_(2, Negro) }
+procedure C() { Poner_DeColor_(3, Negro) }
+procedure D() { Poner_DeColor_(4, Negro) }
+procedure E() { Poner_DeColor_(5, Negro) }
+procedure F() { Poner_DeColor_(6, Negro) }
+procedure G() { Poner_DeColor_(7, Negro) }
+procedure H() { Poner_DeColor_(8, Negro) }
+procedure I() { Poner_DeColor_(9, Negro) }
+procedure J() { Poner_DeColor_(10, Negro) }
+procedure K() { Poner_DeColor_(11, Negro) }
+procedure L() { Poner_DeColor_(12, Negro) }
+procedure M() { Poner_DeColor_(13, Negro) }
+procedure N() { Poner_DeColor_(14, Negro) }
+procedure Ñ() { Poner_DeColor_(15, Negro) }
+procedure O() { Poner_DeColor_(16, Negro) }
+procedure P() { Poner_DeColor_(17, Negro) }
+procedure Q() { Poner_DeColor_(18, Negro) }
+procedure R() { Poner_DeColor_(19, Negro) }
+procedure S() { Poner_DeColor_(20, Negro) }
+procedure T() { Poner_DeColor_(21, Negro) }
+procedure U() { Poner_DeColor_(22, Negro) }
+procedure V() { Poner_DeColor_(23, Negro) }
+procedure W() { Poner_DeColor_(24, Negro) }
+procedure X() { Poner_DeColor_(25, Negro) }
+procedure Y() { Poner_DeColor_(26, Negro) }
+procedure Z() { Poner_DeColor_(27, Negro) }
+
+
+procedure MoverSiHay(dir) {
+  if (puedeMover(dir)) { Mover(dir) }
+}

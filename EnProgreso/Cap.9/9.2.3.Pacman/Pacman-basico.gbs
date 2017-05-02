@@ -1,0 +1,202 @@
+/*
+   PROYECTO: Pacman
+   AUTOR: Pablo E. -Fidel- Martínez López
+   E-MAIL: fidel@unq.edu.ar
+   ENLACE: 
+   FECHA: marzo 2017
+   VERSIÓN: 1.0
+   LICENCIA: GPL.v2.0
+*/
+
+program {
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Este)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Sur)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Norte)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+    HacerJugadaDelPacman(Oeste)
+//    HacerJugadaDelPacman(Sur)
+}
+
+// interactive program {
+//   K_ARROW_LEFT  -> { HacerJugadaDelPacman(Oeste) }
+//   K_ARROW_RIGHT -> { HacerJugadaDelPacman(Este)  }
+//   K_ARROW_UP    -> { HacerJugadaDelPacman(Norte) }
+//   K_ARROW_DOWN  -> { HacerJugadaDelPacman(Sur)   }
+//   _             -> { HacerJugadaDelFantasma()    }
+// }
+
+function pacman()   { return(Negro) }
+function pared()    { return(Azul)  }
+function pastilla() { return(Verde) }
+function fantasma() { return(Rojo)  }
+
+function hay(personaje) { return(hayBolitas(personaje)) }
+function hayEnCuadrante(personaje, d1, d2) {
+  BuscarEnCuadrante(personaje, d1, d2)
+  return (hay(personaje))
+}
+
+procedure HacerJugadaDelPacman(dir) {
+  MoverPersonaje(pacman(), dir)
+  if (hay(fantasma())) { BOOM("Game over") }
+  if (hay(pastilla())) 
+    { Sacar(pastilla()) 
+      if (not hayMasPastillas()) { BOOM("Ganaste!!") }
+    }
+  HacerJugadaDelFantasma()
+}
+
+procedure MoverPersonaje(personaje, dir) {
+  SacarPersonaje(personaje)
+  MoverSiPuede(dir)
+  if (hay(pared())) { Mover(opuesto(dir)) }
+  PonerPersonajeMirandoAl(personaje, dir)
+}
+
+procedure SacarPersonaje(personaje) { SacarTodas(personaje) }
+
+procedure PonerPersonajeMirandoAl(color, dir) {
+  if (dir == Norte) { PonerMuchas(1, color) }
+  if (dir == Este)  { PonerMuchas(2, color) }
+  if (dir == Sur)   { PonerMuchas(3, color) }
+  if (dir == Oeste) { PonerMuchas(4, color) }
+}
+
+procedure HacerJugadaDelFantasma() {
+  BuscarPersonaje(fantasma())
+  if        (hayEnCuadrante(pacman(), Este, Sur)) 
+            { MoverFantasma(Este, Sur) } 
+  else { if (hayEnCuadrante(pacman(), Oeste, Sur)) 
+            { MoverFantasma(Oeste, Sur) } 
+  else { if (hayEnCuadrante(pacman(), Oeste, Norte)) 
+            { MoverFantasma(Oeste, Norte) } 
+  else      { MoverFantasma(Este, Norte) }
+  }}
+  if (hay(pacman())) { BOOM("Perdiste!") }
+  BuscarPersonaje(pacman())
+}
+
+procedure MoverFantasma(d1, d2) {
+  if (puedeMover(d1)) 
+       { Mover(d1)
+         if (hay(pared())) { dirDefinitiva := d2 }
+         else              { dirDefinitiva := d1 }
+         Mover(opuesto(d1))
+       } 
+  else { dirDefinitiva := d2 }
+  
+  MoverPersonaje(fantasma(), dirDefinitiva)
+  if (hay(pacman())) { BOOM("Game Over") }
+}
+
+function hayMasPastillas() {
+    totalPastillas := 0
+    IrAlBorde(Sur) IrAlBorde(Oeste)
+    ancho := distanciaAlBorde(Este)
+    while (hayCeldaSiguiente(Este, Norte)) {
+        if (hay(pastilla())) 
+          { totalPastillas := totalPastillas + 1 }
+        IrACeldaSiguiente(Este, Norte, ancho)
+    }
+    if (hay(pastilla())) 
+      { totalPastillas := totalPastillas + 1 }
+    return (totalPastillas > 0)
+}
+
+// ------------------
+// Ver Biblioteca del docente
+// ------------------
+// procedure BuscarPersonaje(personaje) {
+//   IrAlBorde(Oeste); IrAlBorde(Norte)
+//   BuscarEnCuadrante(personaje, Este, Sur)
+// }
+// 
+// procedure BuscarEnCuadrante(personaje, d1, d2) {
+//   anchoDelCuadrante := distanciaAlBorde(d1) 
+//   while (hayCeldaSiguiente(d1,d2) && not hay(personaje))
+//      { IrACeldaSiguiente(d1,d2,anchoDelCuadrante) }
+// }
+// 
+// function hayCeldaSiguiente(d1,d2) {
+//     return (puedeMover(d1) || puedeMover(d2))
+// }
+// 
+// procedure IrACeldaSiguiente(d1,d2,ancho) {
+//     if (puedeMover(d1)) 
+//           { Mover(d1) }
+//      else { Mover(d2)  MoverMuchas(ancho, opuesto(d1)) } 
+// }
+// 
+// function distanciaAlBorde(d) {
+//   pasosAlBorde := 0
+//   while (puedeMover(d)) {
+//       pasosAlBorde := pasosAlBorde + 1
+//       Mover(d)
+//   }
+//   return (pasosAlBorde)
+// }
+//  
+// procedure MoverMuchas(n,d) { repeat(n) { Mover(d) } }
+// procedure PonerMuchas(n,c) { repeat(n) { Poner(c) } }
+// procedure SacarMuchas(n,c) { repeat(n) { Sacar(c) } }
+// procedure SacarTodas(c)    { SacarMuchas(nroBolitas(c),c) }
+// procedure MoverSiPuede(d)  { if (puedeMover(d)) { Mover(d) } }
+// 
+// function opuesto(dir) {
+//     if (dir == Norte) { ret := Sur   }
+//     if (dir == Este)  { ret := Oeste }
+//     if (dir == Sur)   { ret := Norte }
+//     if (dir == Oeste) { ret := Este  }
+//     return (ret)    
+// }
+
+
+
+
+

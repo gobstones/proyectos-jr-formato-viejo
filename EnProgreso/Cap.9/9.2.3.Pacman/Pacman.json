@@ -1,0 +1,55 @@
+{
+  "name": "Pacman",
+  "library": {
+    "visible": false
+  },
+  "board": {
+    "active": 1,
+    "initial_board_source": "selected",
+    "visible_edition": true,
+    "user_permissions": {
+      "can_change_source": true,
+      "can_edit_board": false
+    }
+  },
+  "execution_speed": {
+    "active": "high",
+    "user_permissions": {
+      "can_change_speed": true
+    }
+  },
+  "attire": {
+    "active": "Pacman",
+    "visible": false,
+    "user_permissions": {
+      "can_toggle_visibility": true
+    }
+  },
+      "blocks": {
+        "visible": [ "Comandos"
+                   ,   "ComandosPrimitivos"
+                   ,     "Poner", "Mover", "Sacar"
+                   ,     "IrAlBorde", "VaciarTablero","BOOM"
+                   ,   "ProcedimientosPrimitivos"
+                   ,   "Procedimientos"
+                   ,   "Alternativas"
+                   ,     "AlternativaSimple", "AlternativaCompleta"
+                   ,   "Repeticiones"
+                   ,     "RepeticionSimple", "RepeticionCondicional"
+                   ,   "CategoriaAsignacion"
+                   ,     "Asignacion"
+                   , "Expresiones"
+                   ,   "Literales"
+                   ,     "Color", "Direccion", "Numero", "Booleano"
+                   ,   "ExpresionesPrimitivas"
+                   ,     "puedeMover", "hayBolitas", "nroBolitas"
+                   ,   "FuncionesPrimitivas"
+                   ,   "Funciones"
+                   ,   "Operaciones" // debería ser "Operadores"
+                   ,     "OperadorNumerico", "OperadorDeComparacion", "not", "OperadorLogico"
+                   ,     "siguiente", "previo", "opuesto"
+        ],            
+        "disabled": [ 
+                    ]
+      }
+}

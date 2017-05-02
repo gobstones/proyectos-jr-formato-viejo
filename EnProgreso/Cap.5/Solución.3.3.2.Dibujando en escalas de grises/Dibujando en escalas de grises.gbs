@@ -1,0 +1,34 @@
+program {
+  MonocromatizarImagen()
+}
+
+procedure MonocromatizarImagen() {
+  repeat (9) { 
+     MonocromatizarFila() 
+     Mover(Norte) 
+  }
+  MonocromatizarFila()
+  IrAlBorde(Sur)
+}
+
+procedure MonocromatizarFila() {
+  repeat (9) {
+    MonocromatizarCelda() 
+    Mover(Este) 
+  }
+  MonocromatizarCelda()
+  IrAlBorde(Oeste)
+}
+
+procedure MonocromatizarCelda() {
+  repeat(promedioDeColores()) { Poner(Negro) }
+  SacarTodas_(Azul)
+  SacarTodas_(Verde)
+  SacarTodas_(Rojo)
+}
+
+function promedioDeColores() {
+  return ((nroBolitas(Rojo)  +
+           nroBolitas(Verde) +
+           nroBolitas(Azul)) div 3)
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Representando caracteres",
+  "library": {
+    "visible": false
+  },
+  "board": {
+    "active": 1,
+    "initial_board_source": "selected",
+    "visible_edition": true,
+    "user_permissions": {
+      "can_change_source": true,
+      "can_edit_board": false
+    }
+  },
+  "execution_speed": {
+    "active": "instantaneous",
+    "user_permissions": {
+      "can_change_speed": true
+    }
+  },
+  "attire": {
+    "active": "Letras",
+    "visible": true,
+    "user_permissions": {
+      "can_toggle_visibility": true
+    }
+  },
+      "blocks": {
+        "visible": [   "ComandosPrimitivos"
+                   ,   "ProcedimientosPrimitivos"
+                   ,   "Procedimientos"
+                   ,     "RepeticionSimple"
+                   ,     "Color", "Direccion", "Numero"
+                   ,   "ExpresionesPrimitivas"
+                   ,   "FuncionesPrimitivas"
+                   ,   "Funciones"
+                   ,   "Operaciones"
+        ],            
+        "disabled": [     "Poner", "Sacar"
+                    ,     "IrAlBorde", "VaciarTablero","BOOM"
+                    ,   "Alternativas"
+                    ,     "RepeticionSimple"
+                    ,   "ExpresionesPrimitivas"
+                    ,   "Operaciones"
+                    ]
+      }
+}

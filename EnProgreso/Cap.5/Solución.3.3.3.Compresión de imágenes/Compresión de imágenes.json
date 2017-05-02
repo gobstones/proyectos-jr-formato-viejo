@@ -1,0 +1,45 @@
+{
+  "name": "Compresión de imágenes",
+  "library": {
+    "visible": false
+  },
+  "board": {
+    "active": 1,
+    "initial_board_source": "selected",
+    "visible_edition": true,
+    "user_permissions": {
+      "can_change_source": true,
+      "can_edit_board": false
+    }
+  },
+  "execution_speed": {
+    "active": "instantaneous",
+    "user_permissions": {
+      "can_change_speed": true
+    }
+  },
+  "attire": {
+    "active": "RGB",
+    "visible": false,
+    "user_permissions": {
+      "can_toggle_visibility": true
+    }
+  },
+  "blocks": {
+	"visible": [   "ComandosPrimitivos"
+               ,   "ProcedimientosPrimitivos"
+               ,   "Procedimientos"
+               ,   "Alternativas"
+               ,     "RepeticionSimple"
+               ,     "Color", "Direccion", "Numero"
+               ,   "ExpresionesPrimitivas"
+               ,   "FuncionesPrimitivas"
+               ,   "Funciones"
+               ,   "Operaciones"
+    ],            
+	"disabled": [    "hayBolitas", "nroBolitas"
+               ,     "OperadorDeComparacion", "not", "OperadorLogico"
+               ,     "siguiente", "previo", "opuesto"
+                ]
+  }
+}

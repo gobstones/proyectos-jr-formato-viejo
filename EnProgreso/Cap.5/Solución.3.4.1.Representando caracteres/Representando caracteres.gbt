@@ -1,0 +1,3 @@
+procedure Poner_DeColor_(n, color) {
+  repeat(n) { Poner(color) }
+}

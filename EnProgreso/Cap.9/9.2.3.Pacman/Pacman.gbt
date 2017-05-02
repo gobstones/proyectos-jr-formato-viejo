@@ -1,0 +1,43 @@
+procedure BuscarPersonaje_(personaje) {
+  IrAlBorde(Oeste); IrAlBorde(Norte)
+  BuscarEnCuadrante(personaje, Este, Sur)
+}
+
+procedure Buscar_EnCuadrante__(personaje, d1, d2) {
+  anchoDelCuadrante := distanciaAlBorde(d1) 
+  while (hayCeldaSiguiente(d1,d2) && not hay(personaje))
+     { IrACeldaSiguiente___(d1,d2,anchoDelCuadrante) }
+}
+
+function hayCeldaSiguiente__(d1,d2) {
+    return (puedeMover(d1) || puedeMover(d2))
+}
+
+procedure IrACeldaSiguiente___(d1,d2,ancho) {
+    if (puedeMover(d1)) 
+          { Mover(d1) }
+     else { Mover(d2)  MoverMuchas__(ancho, opuesto(d1)) } 
+}
+
+function distanciaAlBorde_(d) {
+  pasosAlBorde := 0
+  while (puedeMover(d)) {
+      pasosAlBorde := pasosAlBorde + 1
+      Mover(d)
+  }
+  return (pasosAlBorde)
+}
+
+procedure MoverMuchas__(n,d) { repeat(n) { Mover(d) } }
+procedure PonerMuchas__(n,c) { repeat(n) { Poner(c) } }
+procedure SacarMuchas__(n,c) { repeat(n) { Sacar(c) } }
+procedure SacarTodas_(c)    { SacarMuchas(nroBolitas(c),c) }
+procedure MoverSiPuede_(d)  { if (puedeMover(d)) { Mover(d) } }
+
+function opuesto_(dir) {
+    if (dir == Norte) { ret := Sur   }
+    if (dir == Este)  { ret := Oeste }
+    if (dir == Sur)   { ret := Norte }
+    if (dir == Oeste) { ret := Este  }
+    return (ret)    
+}

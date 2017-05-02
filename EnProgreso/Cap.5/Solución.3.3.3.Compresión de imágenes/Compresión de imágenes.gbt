@@ -1,0 +1,10 @@
+function nroBolitasPrimeraCelda_(color) {
+  IrAlBorde(Oeste)
+  return (nroBolitas(color))
+}
+
+procedure SacarTodasLasDeColor_(color) {
+  repeat (nroBolitas(color)) 
+     { Sacar(color) }
+}
+
