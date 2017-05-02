@@ -1,0 +1,79 @@
+program{
+    BuscarLaLlave()
+    BuscarElSombrero()
+    ConseguirLaEspada()
+    RescatarAlNovio()
+    BusarElUnicornioYEscapar()
+}
+
+procedure IrALaLlave() {
+    MoverProtagonistaAl(Norte) 
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+}
+
+procedure BuscarLaLlave() {
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+    AgarrarLaLlave()
+}
+
+procedure IrAlCofre() {
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Oeste)
+    MoverProtagonistaAl(Oeste)
+    MoverProtagonistaAl(Oeste)
+    MoverProtagonistaAl(Oeste)
+}
+
+procedure BuscarElSombrero() {
+    IrAlCofre()
+    AbrirElCofreYAgarrarElSombrero()
+}
+
+procedure IrAlMago() {
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Este)
+}
+
+procedure ConseguirLaEspada() {
+    IrAlMago()
+    DarElSombreroAlMago()
+}
+
+procedure IrHastaElCaballero() {
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Norte)
+    MoverProtagonistaAl(Este)
+}
+
+procedure RescatarAlNovio() {
+    IrHastaElCaballero()
+    AtacarAlCaballeroConLaEspada()
+}
+
+procedure IrHastaElUnicornio() {
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Sur)
+    MoverProtagonistaAl(Este)
+    MoverProtagonistaAl(Este)
+}
+
+procedure BusarElUnicornioYEscapar() {
+    IrHastaElUnicornio()
+    HuirEnElUnicornio()
+}
+
+

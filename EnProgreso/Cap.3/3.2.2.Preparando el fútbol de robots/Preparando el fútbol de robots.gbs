@@ -1,0 +1,33 @@
+program{
+    
+}
+
+procedure MeterElGol() {
+  AvanzarYPatear()
+  AvanzarYPatear()
+  AvanzarYPatear()
+}
+
+procedure AvanzarYPatear(){ }
+
+procedure PatearLaPelota() {
+  MoverElPieDeBeto()
+  SacarLaPelota()
+  Mover(Este)
+  Mover(Este)
+  PonerLaPelota()
+  Mover(Oeste)
+  Mover(Oeste)
+}
+
+procedure MoverABetoAlEste(){ }
+
+procedure MoverElPieDeBeto(){ }
+
+procedure PonerLaPelota(){ }
+
+procedure SacarLaPelota(){ }
+
+procedure PonerABeto(){ }
+
+procedure SacarABeto(){ }

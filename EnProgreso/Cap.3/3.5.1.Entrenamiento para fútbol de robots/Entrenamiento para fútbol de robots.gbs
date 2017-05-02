@@ -1,0 +1,9 @@
+program {
+    
+}
+
+procedure PatearLaPelota() {
+  MoverElPieDeBeto()
+  repeat (3) { MoverLaPelotaAl(Este) }
+  repeat (3) { Mover(Oeste) }
+}

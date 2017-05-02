@@ -1,0 +1,55 @@
+procedure MoverProtagonistaAl(dir) {
+    if (hayProtagonista() && todaviaNoHuyo()) {
+      nroAzules := nroBolitas(Azul)
+      repeat (nroBolitas(Azul)) { Sacar(Azul) }
+      Mover(dir)
+      if ((nroBolitas(Verde) > nroAzules) || hayBolitas(Negro)) { Sacar(Rojo) }
+      repeat (nroAzules) { Poner(Azul) }
+    }
+}
+
+procedure AgarrarLaLlave() {
+    if (not hayProtagonista()) { Sacar(Rojo) }
+    if (not hayLlave())        { Sacar(Rojo) }
+    Sacar(Verde) Poner(Azul)
+}
+
+procedure AbrirElCofreYAgarrarElSombrero() {
+    if (not hayProtagonista()) { Sacar(Rojo) }
+    if (not hayCofre())        { Sacar(Rojo) }
+    if (not tieneLlave())      { Sacar(Rojo) }
+    Poner(Negro) Poner(Azul)
+}
+
+procedure DarElSombreroAlMago() {
+    if (not hayProtagonista()) { Sacar(Rojo) }
+    if (not hayMago())         { Sacar(Rojo) }
+    if (not tieneSombrero())   { Sacar(Rojo) }
+    Poner(Negro) Poner(Azul)
+}
+
+procedure AtacarAlCaballeroConLaEspada() {
+    if (not hayProtagonista()) { Sacar(Rojo) }
+    if (not hayCaballero())    { Sacar(Rojo) }
+    if (not tieneEspada())     { Sacar(Rojo) }
+    Poner(Negro) Poner(Azul)
+}
+
+procedure HuirEnElUnicornio() {
+    if (not hayProtagonista()) { Sacar(Rojo) }
+    if (not hayUnicornio())    { Sacar(Rojo) }
+    if (not tieneAlNovio())    { Sacar(Rojo) }
+    Poner(Negro) Poner(Azul)
+}
+
+function todaviaNoHuyo()   { return(True) }
+function hayProtagonista() { return(hayBolitas(Azul)) }
+function tieneLlave()      { return(nroBolitas(Azul)  == 2) }
+function tieneSombrero()   { return(nroBolitas(Azul)  == 3) }
+function tieneEspada()     { return(nroBolitas(Azul)  == 4) }
+function tieneAlNovio()    { return(nroBolitas(Azul)  == 5) }
+function hayLlave()        { return(nroBolitas(Verde) == 1) }
+function hayCofre()        { return(nroBolitas(Verde) == 2) }
+function hayMago()         { return(nroBolitas(Verde) == 3) }
+function hayCaballero()    { return(nroBolitas(Verde) == 4) }
+function hayUnicornio()    { return(nroBolitas(Verde) == 5) } 

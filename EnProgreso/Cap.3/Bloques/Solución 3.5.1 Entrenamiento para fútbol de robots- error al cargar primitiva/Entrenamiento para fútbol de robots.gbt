@@ -1,0 +1,13 @@
+﻿procedure MoverABetoAl(dir) {
+  repeat (2) { Sacar(Azul) }
+  Mover(dir)
+  repeat (2) { Poner(Azul) }
+}
+
+procedure MoverElPieDeBeto() { Sacar(Azul) Poner(Azul) }
+
+procedure MoverLaPelotaAl(dir) {
+  Sacar(Negro)
+  Mover(dir)
+  Poner(Negro)
+}
