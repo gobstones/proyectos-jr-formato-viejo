@@ -1,0 +1,17 @@
+procedure PonerMuchas(n, color)
+  { repeat (n) { Poner(color) } } 
+
+procedure SacarMuchas(n, color)
+  { repeat (n) { Sacar(color) } } 
+
+procedure SacarTodas(color)
+  { SacarMuchas(nroBolitas(color), color) } 
+
+// -----------------------------
+function opuesto(dir) {
+  if (dir == Norte) { ret := Sur   }
+  if (dir == Este)  { ret := Oeste }
+  if (dir == Sur)   { ret := Norte }
+  if (dir == Oeste) { ret := Este  }
+  return (ret)
+}

@@ -1,0 +1,85 @@
+program {
+  PatearALaIzquierda()
+  PatearAlCentro()
+  AtajarAlCentro()
+
+}
+
+// interactive program {
+//   K_Q     -> { AtajarALaIzquierda() }
+//   K_W     -> { AtajarAlCentro()     }
+//   K_R     -> { AtajarALaDerecha()   }
+//   K_I     -> { PatearALaIzquierda() }
+//   K_O     -> { PatearAlCentro()     }
+//   K_P     -> { PatearALaDerecha()   }
+//   _       -> {                      }
+// }
+
+procedure PatearALaIzquierda() { PonerOpcion(1, Azul) }
+procedure PatearAlCentro()     { PonerOpcion(2, Azul) }
+procedure PatearALaDerecha()   { PonerOpcion(3, Azul) }
+
+procedure AtajarALaIzquierda() { PonerOpcion(1, Verde) }
+procedure AtajarAlCentro()     { PonerOpcion(2, Verde) }
+procedure AtajarALaDerecha()   { PonerOpcion(3, Verde) }
+
+
+procedure PonerOpcion(opcion, color) {
+  SacarTodas(color)
+  PonerMuchas(opcion, color)
+  if (nroBolitas(Verde) > 0 && nroBolitas(Azul) > 0) 
+    { EjecutarPenal() }
+}
+
+procedure EjecutarPenal() { MoverArquero()  MoverPelota() }
+
+procedure MoverArquero() {
+  SacarArquero()
+  MoverSegunOpcion(nroBolitas(Verde))
+  PonerArquero()
+  VolverAlCentro()
+  SacarTodas(Verde)
+}
+
+procedure SacarArquero() {
+  Mover(Norte)
+  SacarTodas(Negro)
+  Mover(Sur)
+}
+
+procedure PonerArquero() {
+  Mover(Norte)
+  PonerMuchas(3, Negro)
+  Mover(Sur)
+}
+
+procedure MoverPelota() {
+  SacarPelota()
+  MoverSegunOpcion(nroBolitas(Azul))
+  PonerPelota()
+  VolverAlCentro()
+  SacarTodas(Azul)
+}
+
+procedure SacarPelota() { Sacar(Negro) }
+procedure PonerPelota() { Mover(Norte) Poner(Negro) Mover(Sur) }
+
+procedure MoverSegunOpcion(opcion) {
+  if (opcion == 1) { Mover(Oeste) }
+  if (opcion == 3) { Mover(Este)  }
+}
+
+procedure VolverAlCentro() { IrAlBorde(Oeste) Mover(Este) }
+
+procedure SacarTodas(color) {
+    SacarMuchas(nroBolitas(color), color)
+}
+
+procedure SacarMuchas(cantidad, color) {
+    repeat (cantidad) { Sacar(color) }
+}
+
+procedure PonerMuchas(cantidad, color) {
+    repeat (cantidad) { Poner(color) }
+}
+

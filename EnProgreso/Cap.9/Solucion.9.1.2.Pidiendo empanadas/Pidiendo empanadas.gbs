@@ -1,0 +1,34 @@
+program {
+    Incrementar()
+    Seleccionar(Norte)
+    Seleccionar(Norte)
+    Incrementar()
+    Incrementar()
+    Seleccionar(Sur)
+    Incrementar()
+    Incrementar()
+    Incrementar()
+    Seleccionar(Sur)
+    Decrementar()
+    Seleccionar(Norte)
+    Seleccionar(Norte)
+    Decrementar()
+}
+
+procedure Incrementar() {
+    if (nroBolitas(Negro) < 99) 
+      { Poner(Negro) }
+}
+
+procedure Decrementar() {
+    if (nroBolitas(Negro) > 0) 
+      { Sacar(Negro) }
+}
+
+procedure Seleccionar(dir) {
+    if (puedeMover(dir)) {
+        Mover(Oeste) Sacar(Rojo)
+        Mover(dir)
+        Poner(Rojo) Mover(Este)
+    }
+}

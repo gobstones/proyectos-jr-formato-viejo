@@ -1,0 +1,116 @@
+program {
+// SOLO Tablero 1
+    // MoverViboraAl(Este)
+    // MoverViboraAl(Norte)
+    // MoverViboraAl(Oeste)
+    // MoverVibora()
+    // MoverVibora()
+
+// Tableros 1 y 2
+    MoverVibora()
+    MoverVibora()
+    MoverViboraAl(Norte)
+    MoverViboraAl(Este)
+    MoverVibora()
+    MoverVibora()
+    MoverVibora()
+    MoverVibora()
+}
+
+// interactive program {
+//     K_ARROW_LEFT  -> { MoverViboraAl(Oeste) }
+//     K_ARROW_RIGHT -> { MoverViboraAl(Este)  }
+//     K_ARROW_UP    -> { MoverViboraAl(Norte) }
+//     K_ARROW_DOWN  -> { MoverViboraAl(Sur)   }
+//     _             -> { MoverVibora()        }
+// }
+
+procedure MoverVibora() { MoverViboraAl(direccionDeMovimiento()) }
+
+procedure MoverViboraAl(dirDeMovimiento) {
+  MoverLaCabezaAl(dirDeMovimiento)
+  if (hayManzana())
+       { SacarManzana() }
+  else { AcortarVibora() }
+}
+
+procedure MoverLaCabezaAl(dir) {
+  ExtenderTroncoAl(dir)
+  if (not puedeMover(dir)) { BOOM("Me caí del tablero") }
+  Mover(dir)
+  if (hayVibora()) { BOOM("Me choqué conmigo misma") }
+  PonerCabezaMirandoAl(dir)
+}
+
+procedure SacarManzana() { Sacar(Rojo) }
+
+procedure AcortarVibora() {
+  IrDeLaCabezaALaCola()
+  AcortarLaCola()
+  IrDeLaColaALaCabeza()
+}
+
+procedure AcortarLaCola() {
+  dirSiguiente := dirSegmentoPrevio()
+  SacarTodas(Negro)
+  Mover(dirSiguiente)
+  SacarTodas(Verde)
+}
+
+procedure IrDeLaCabezaALaCola() {
+    while (not hayCola()) { Mover(dirSegmentoPosterior()) }
+}
+
+procedure IrDeLaColaALaCabeza() {
+   while (not hayCabeza()) { Mover(dirSegmentoPrevio()) }
+}
+
+// --------------------------
+procedure ExtenderTroncoAl(dir) 
+  { CodificarSegmento(dir, Negro) }
+  
+procedure PonerCabezaMirandoAl(dir) 
+  { CodificarSegmento(opuesto(dir), Verde) }
+
+function hayVibora() 
+  { return (hayBolitas(Negro) || hayBolitas(Verde)) }
+
+function hayCola() 
+  { return (hayBolitas(Negro) && not hayBolitas(Verde)) }
+
+function hayCabeza()
+  { return (not hayBolitas(Negro) && hayBolitas(Verde)) }
+
+function hayManzana()
+  { return (nroBolitas(Rojo) == 1) }
+
+// -----------------------------
+procedure CodificarSegmento(dir, color) {
+    if (dir == Norte) { PonerMuchas(1, color) }
+    if (dir == Este)  { PonerMuchas(2, color) }
+    if (dir == Sur)   { PonerMuchas(3, color) }
+    if (dir == Oeste) { PonerMuchas(4, color) }
+}
+
+function direccionDeMovimiento() 
+  { return (opuesto(dirSegmentoPosterior())) }
+  
+function dirSegmentoPrevio()    { 
+  if (nroBolitas(Negro) == 0) { BOOM("La cabeza no tiene previo") }
+  return (dirSegmento(Negro)) 
+}
+
+function dirSegmentoPosterior() { 
+  if (nroBolitas(Verde) == 0) { BOOM("La cola no tiene posterior") }
+  return (dirSegmento(Verde)) 
+}
+
+function dirSegmento(color) {
+  if (nroBolitas(color) == 1) { ret := Norte }
+  if (nroBolitas(color) == 2) { ret := Este  }
+  if (nroBolitas(color) == 3) { ret := Sur   }
+  if (nroBolitas(color) == 4) { ret := Oeste }
+  return (ret)
+}
+
+
