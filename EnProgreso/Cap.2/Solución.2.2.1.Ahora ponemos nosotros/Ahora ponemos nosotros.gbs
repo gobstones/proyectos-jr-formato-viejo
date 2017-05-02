@@ -1,0 +1,7 @@
+program 
+{
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Azul)
+  Poner(Negro)
+}
