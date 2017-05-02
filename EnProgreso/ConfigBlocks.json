@@ -1,0 +1,29 @@
+    ,
+      "blocks": {
+        "visible": [ "Comandos"
+                   ,   "ComandosPrimitivos"
+                   ,     "Poner", "Mover", "Sacar"
+                   ,     "IrAlBorde", "VaciarTablero","BOOM"
+                   ,   "ProcedimientosPrimitivos"
+                   ,   "Procedimientos"
+                   ,   "Alternativas"
+                   ,     "AlternativaSimple", "AlternativaCompleta"
+                   ,   "Repeticiones"
+                   ,     "RepeticionSimple", "RepeticionCondicional"
+                   ,   "CategoriaAsignacion"
+                   ,     "Asignacion"
+                   , "Expresiones"
+                   ,   "Literales"
+                   ,     "Color", "Direccion", "Numero", "Booleano"
+                   ,   "ExpresionesPrimitivas"
+                   ,     "puedeMover", "hayBolitas", "nroBolitas"
+                   ,   "FuncionesPrimitivas"
+                   ,   "Funciones"
+                   ,   "Operaciones" // debería ser "Operadores"
+                   ,     "OperadorNumerico", "OperadorDeComparacion", "not", "OperadorLogico"
+                   ,     "siguiente", "previo", "opuesto"
+        ],            
+        "disabled": [ 
+                    ]
+      }
+ 
