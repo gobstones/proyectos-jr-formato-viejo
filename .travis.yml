@@ -3,7 +3,6 @@ rvm:
 - 2.3.1
 install:
 - "./empaquetar-proyectos.rb"
-- cd site
 - bundle install
 script: bundle exec rake site:deploy --quiet
 env:
