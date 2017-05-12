@@ -3,7 +3,7 @@
 require 'fileutils'
 
 DIRECTORIO_TRABAJO = 'Proyectos'
-DIRECTORIO_PUBLICACION = 'docs/proyectos'
+DIRECTORIO_PUBLICACION = 'site/proyectos'
 
 module FileUtils
   def self.capitulos
