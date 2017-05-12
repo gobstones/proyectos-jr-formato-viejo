@@ -43,4 +43,5 @@ def crear_proyectos!(dir_capitulo)
   dir_proyectos.each { |proyecto| crear_proyecto! proyecto, dir_publicacion_capitulo }
 end
 
+FileUtils.mkdir! DIRECTORIO_PUBLICACION
 FileUtils.capitulos.each { |dir_capitulo| crear_proyectos! dir_capitulo }
