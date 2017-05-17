@@ -27,7 +27,7 @@ end
 
 def crear_proyecto!(dir_proyecto, dir_publicacion)
   nombre_proyecto = "#{File.basename dir_proyecto}.gbp"
-  `zip -r "#{nombre_proyecto}" "#{dir_proyecto}"`
+  `(cd "#{dir_proyecto}" && zip -r - .) > "#{nombre_proyecto}"`
   FileUtils.mv nombre_proyecto, dir_publicacion
   puts "¡Proyecto #{nombre_proyecto} creado!"
 end
