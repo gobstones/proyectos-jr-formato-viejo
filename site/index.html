@@ -1,16 +1,27 @@
 ---
 layout: page
 description: "En este sitio podrás descargar actividades para probar Gobstones Jr"
+gobstones-web-url: "https://gobstones.github.io/gobstones-web/#/blocks?url="
 ---
 
 <h1>Capítulo 2</h1>
-<ul>
-    {% directory path: proyectos/Cap.2 %}
-        <li>
-            <a href="{{file.url | prepend: site.baseurl}}">{{file.name}}</a>
-        </li>
-    {% enddirectory %}
-</ul>
+{% directory path: proyectos/Cap.2 %}
+    <div class="row">
+        <div class="col-md-6">
+            <span>{{file.name}}</span>
+        </div>
+        <div class="col-md-6">
+            <a class="btn btn-primary" href="{{page.gobstones-web-url}}{{file.url | prepend: site.baseurl | prepend: site.url}}" target="_blank">
+                <span>Abrir</span>
+                <i class="fa fa-external-link"></i>
+            </a>
+            <a class="btn btn-info" href="{{file.url | prepend: site.baseurl}}">
+                <span>Descargar</span>
+                <i class="fa fa-download"></i>
+            </a>
+        </div>
+    </div>
+{% enddirectory %}
 
 <h1>Capítulo 3</h1>
 <ul>
