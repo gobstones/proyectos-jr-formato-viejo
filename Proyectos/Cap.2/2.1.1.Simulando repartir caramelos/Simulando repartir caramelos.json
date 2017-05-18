@@ -26,8 +26,8 @@
     }
   },
   "blocks": {
-	"visible": [],
-	"disabled": []
+	"visible": ["Poner"],
+	"disabled": ["Poner"]
   }
 
 }
