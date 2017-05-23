@@ -5,7 +5,7 @@ gobstones-web-url: "https://gobstones.github.io/gobstones-web/#/blocks?url="
 ---
 
 <h1>Primeros pasos en programación</h1>
-{% directory path: proyectos/Cap.2 %}
+{% directory path: proyectos/Cap.2 exclude: .pdf$ %}
     <div class="row">
         <div class="col-md-6">
             <span>{{file.name}}</span>
@@ -15,7 +15,7 @@ gobstones-web-url: "https://gobstones.github.io/gobstones-web/#/blocks?url="
                 <span>Abrir</span>
                 <i class="fa fa-external-link"></i>
             </a>
-            <a class="btn btn-success" href="{{file.name | replace: '.gbp', '' | prepend: 'https://github.com/gobstones/proyectos-jr/raw/master/Proyectos/Cap.2/'}}/description.pdf" target="_blank">
+            <a class="btn btn-success" href="{{file.url | replace: 'gbp', 'pdf' | prepend: site.baseurl}}" target="_blank">
                 <span>Consigna</span>
                 <i class="fa fa-file-text-o"></i>
             </a>            

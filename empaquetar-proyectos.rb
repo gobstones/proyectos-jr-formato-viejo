@@ -19,15 +19,14 @@ module FileUtils
   end
 
   def self.mkdir!(path)
-    if !Dir.exist? path
-      mkdir path
-    end
+    mkdir path unless Dir.exist? path
   end
 end
 
 def crear_proyecto!(dir_proyecto, dir_publicacion)
   nombre_proyecto = "#{File.basename dir_proyecto}.gbp"
   `(cd "#{dir_proyecto}" && zip -r - .) > "#{nombre_proyecto}"`
+  FileUtils.cp "#{dir_proyecto}/description.pdf", "#{dir_publicacion}/#{nombre_proyecto}.pdf" if Dir.exist? "#{dir_proyecto}/description.pdf"
   FileUtils.mv nombre_proyecto, dir_publicacion
   puts "¡Proyecto #{nombre_proyecto} creado!"
 end
