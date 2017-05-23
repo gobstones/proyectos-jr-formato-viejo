@@ -29,7 +29,7 @@
 	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
                , "Color", "Direccion"
                ],
-	"disabled": [ 
+	"disabled": [ "Sacar"
                 ]
   }
 }
