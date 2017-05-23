@@ -19,14 +19,14 @@
     }
   },
   "attire": {
-    "active": "Repartiendo caramelos",
+    "active": "Sembrando tomates",
     "visible": true,
     "user_permissions": {
       "can_toggle_visibility": true
     }
   },
   "blocks": {
-	"visible": [],
-	"disabled": []
+	"visible": ["Poner"],
+	"disabled": ["Poner"]
   }
 }
