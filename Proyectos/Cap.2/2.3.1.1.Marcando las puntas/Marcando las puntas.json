@@ -29,6 +29,6 @@
 	"visible":  [ "Poner", "Mover", "Sacar", "IrAlBorde"
                 , "Color", "Direccion"
                 ],
-	"disabled": [ "Sacar" ]
+	"disabled": [ "Sacar", "Mover" ]
   }
 }
