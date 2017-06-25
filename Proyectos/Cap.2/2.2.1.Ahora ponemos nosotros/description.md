@@ -3,7 +3,7 @@
 ¡Ahora es tu turno de usar Gobstones! Construí un programa que haga que la máquina al ejecutarlo ponga 4 bolitas, una de cada color, en la celda actual del tablero. O sea, el programa debe indicar que, comenzando con el tablero inicial de la izquierda, la máquina produzca el tablero final de la derecha.
 
 <center>
-![Tableros inicial y final: partiendo del primero, conseguí hacer el segundo][Imagen1]
+![Tableros inicial y final: partiendo del primero, tenés que conseguir hacer el segundo][Imagen1]
 </center>
 
 Explorá el entorno para descubrir cómo agregar comandos primitivos a un programa y cómo ejecutar ese programa. Son varias cosas a descubrir. ¡Vamos, vos podés! Estos descubrimientos te van a permitir hacer cosas muy interesantes. (Te damos una pista: ¡mirá la “caja de herramientas” que está a la izquierda!)
@@ -40,7 +40,7 @@ table, th {
 
 [Enunciado en PDF][PDF]
 
-[Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/AhoraPonemosNosotros-small.png "Tableros inicial y final: partiendo del primero, conseguí hacer el segundo"
+[Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/AhoraPonemosNosotros-small.png "Tableros inicial y final: partiendo del primero, tenés que conseguir hacer el segundo"
 
 [Imagen2]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/CajaDeHerramientas-small.png "Caja de herramientas"
 
