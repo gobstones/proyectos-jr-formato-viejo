@@ -42,6 +42,6 @@ table, th {
 
 [Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/AhoraPonemosNosotros-small.png "Tableros inicial y final: partiendo del primero, conseguí hacer el segundo"
 
-[Imagen2]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/CajaDeHerramientas.png "Caja de herramientas"
+[Imagen2]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/CajaDeHerramientas-small.png "Caja de herramientas"
 
 [PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/description.pdf "Enunciado de 'Ahora ponemos nosotros' en PDF"
