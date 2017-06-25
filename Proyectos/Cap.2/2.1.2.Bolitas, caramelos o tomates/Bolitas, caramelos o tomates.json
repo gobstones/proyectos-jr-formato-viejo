@@ -13,7 +13,7 @@
     }
   },
   "execution_speed": {
-    "active": "high",
+    "active": "medium",
     "user_permissions": {
       "can_change_speed": true
     }
