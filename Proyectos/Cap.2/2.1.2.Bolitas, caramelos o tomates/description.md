@@ -7,7 +7,7 @@ A) Ejecutá el programa y observá como el granjero siembra tomates y luego los 
 B) Para continuar la actividad volvé a ejecutar el programa del proyecto “Bolitas, caramelos o tomates”, pero esta vez, desactivá antes la vestimenta; ver la Figura 2. Se verá un tablero vacío en el que primero irán apareciendo bolitas y luego de que cambian de color, son retiradas.
 
 <center>
-![Fig.2. Botón para deshabilitar o cambiar la vestimenta, y ejecución sin vestimenta][BolitasCaramelosOTomates-Imagen]
+![Botón para deshabilitar o cambiar la vestimenta, y ejecución sin vestimenta][Imagen1]
 </center>
                        
 ¿En qué se parece lo recién visto a la simulación de repartir caramelos o al granjero que sembraba tomates? Se espera que arribes nuevamente a la conclusión de que todas tienen la misma estructura lógica, en tanto se trata de distribuir ciertos elementos y luego recolectar otros elementos. Esto puede resultar un poquito menos evidente con las bolitas que con el granjero y los tomates. 
@@ -17,10 +17,10 @@ Así, mostramos tres formas distintas de visualizar la ejecución de un solo pro
 
 Se concluye entonces que en realidad los tres programas son uno solo y lo único que cambia es la forma de visualizarlo.
 
-[Enunciado en PDF][BolitasCaramelosOTomates-PDF]
+[Enunciado en PDF][PDF]
 
-[BolitasCaramelosOTomates-Imagen]:
-https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.1.2.Bolitas%2C%20caramelos%20o%20tomates/BolitasCaramelosOTomates-small.png "Fig.2. Botón para deshabilitar o cambiar la vestimenta y ejecución sin vestimenta"
+[Imagen1]:
+https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.1.2.Bolitas%2C%20caramelos%20o%20tomates/Imagen1-small.png "Botón para deshabilitar o cambiar la vestimenta y ejecución sin vestimenta"
 
-[BolitasCaramelosOTomates-PDF]:
+[PDF]:
 https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.1.2.Bolitas%2C%20caramelos%20o%20tomates/description.pdf "Enunciado de 'Bolitas caramelos o tomates' en PDF"
