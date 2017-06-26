@@ -1,8 +1,6 @@
-#Proyecto 2.
+#Proyecto 2.2.3.1. Vaciar la celda
 
-<center>
-![Texto para la imagen][Imagen1]
-</center>
+Tenés que construir un programa que haga que la celda quede vacía. Vas a precisar nuevos comandos primitivos. ¡A explorar! 
 
 <style>
 table, th {
@@ -11,18 +9,16 @@ table, th {
 }
 </style>
 <center>
-<table style="width:80%"> ...
+<table style="width:80%">
   <tr><th>
-    <b>Pastilla:</b> 
+    <b>Pastilla:</b> ¿Quién hace las cosas? 
   </th></tr>
   <tr><th>
-  ...
+El programa, realmente, no hace nada: es la máquina la que hace, cuando ejecuta el programa. Pero es un poco más cómodo decir que es el programa el que hace, por lo que vamos a empezar a decirlo así.
   </th></tr>
 </table>
 </center>
 
 [Enunciado en PDF][PDF]
 
-[Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/AhoraPonemosNosotros-small.png "Tableros inicial y final: partiendo del primero, tenés que conseguir hacer el segundo"
-
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.1.Ahora%20ponemos%20nosotros/description.pdf "Enunciado de 'Ahora ponemos nosotros' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.3.1.Vaciar%20la%20celda/description.pdf "Enunciado de 'Vaciar la celda' en PDF"
