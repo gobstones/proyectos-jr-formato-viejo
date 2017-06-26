@@ -9,7 +9,7 @@
     "visible_edition": false,
     "user_permissions": {
       "can_change_source": true,
-      "can_edit_board": true
+      "can_edit_board": false
     }
   },
   "execution_speed": {
