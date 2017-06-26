@@ -6,7 +6,7 @@ Un dibujo de la cruz roja hecho con bolitas se manchó con ceniza; el propósito
 ![Tableros inicial y final][Imagen1]
 </center>
 
-Fijate que el tablero inicial va a ser siempre el mismo, con lo cual tenés que encontrar qué comandos precisás y en qué orden. ¿Qué pasa si te equivocás en el orden de los comandos? Es complicado resolver este problema usando solamente los comandos Mover y Sacar, ¿no? 
+Fijate que el tablero inicial va a ser siempre el mismo, con lo cual tenés que encontrar qué comandos precisás y en qué orden. ¿Qué pasa si te equivocás en el orden de los comandos? Es complicado resolver este problema usando solamente los comandos `Mover` y `Sacar`, ¿no? 
 
 <style>
 table, th {
