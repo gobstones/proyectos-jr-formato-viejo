@@ -11,10 +11,14 @@ Fijate que el tablero inicial va a ser siempre el mismo, con lo cual tenés que 
 > **El que busca, encuentra**
 >
 > ¿Habrá más de un programa que funcione para este problema? Para probar, tratá de guardar el programa que hiciste en la computadora y hacer otro distinto. Para guardar el proyecto, usá el ícono al lado del de abrir proyecto. ¡Acordate de ponerle un nombre distinto a cada solución!
+> <center>
+> ![Botón de guardar proyecto][Imagen2]
 
 [Enunciado en PDF][PDF]
 
 [Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.3.2.Limpiar%20la%20cruz%20roja/Imagen1-small.png "Tableros inicial y final"
+
+[Imagen2]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.3.2.Limpiar%20la%20cruz%20roja/Imagen2.png "Botón de guardar proyecto"
 
 [PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.2.3.2.Limpiar%20la%20cruz%20roja/description.pdf "Enunciado de 'Limpiar la cruz roja' en PDF"
 
