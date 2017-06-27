@@ -9,10 +9,9 @@ Tenés que hacer algo muy parecido a lo que hiciste en los proyectos anteriores:
 > **La clave está en la Rosa de los Vientos**
 >
 > El comando `Mover` precisa una dirección. En Gobstones, las direcciones son `Norte`, `Este`, `Sur` y `Oeste`. Cuando tengas dudas, chequeá la rosa de los vientos que se encuentra arriba a la derecha. ¡Ah! Un dato interesante: si leés las direcciones desde la N y hacia la izquierda se forma _No sé_.
-
-<center>
-![Rosa de los vientos][Imagen2]
-</center>
+><center>
+>![Rosa de los vientos][Imagen2]
+></center>
 
 [Enunciado en PDF][PDF]
 
