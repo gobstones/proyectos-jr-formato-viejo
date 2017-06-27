@@ -1,6 +1,6 @@
 #Proyecto 2.3.1.1. Marcando las puntas
 
-Construí un programa que ponga 4 bolitas verdes una en cada esquina del tablero; es como si pusieses algo en cada rincón de una habitación. El desafío es construir un solo programa, pero ese programa tiene que funcionar en cualquier tablero inicial que se nos ocurra. Te mostramos algunos ejemplos de cómo deberían quedar diferentes tableros finales:
+Construí un programa que ponga 4 bolitas verdes una en cada esquina del tablero; es como si pusieses algo en cada rincón de una habitación. El desafío es construir **_un solo programa_**, pero ese programa tiene que funcionar **_en cualquier tablero inicial_** que se nos ocurra. Te mostramos algunos ejemplos de cómo deberían quedar diferentes tableros finales:
                 
 <center>
 ![Algunos tableros finales resultado del programa][Imagen1]
@@ -10,7 +10,7 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 
 > **Probá, probá y probá**
 >
-> Asegurate de ejecutar el programa varias veces, con diferentes tableros iniciales y ver que el mismo programa da siempre el resultado que esperás.
+> Asegurate de ejecutar el programa varias veces. Cada vez que ejecutás este proyecto, el entorno usa un tableros inicial diferente. Así podés ver que **_el mismo programa_** da siempre el resultado que esperás, sin importar cuál es el tablero inicial. 
 
 .
 
@@ -18,9 +18,6 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 >
 > Acordate que decimos que _“el programa pone bolitas”_, pero en realidad es la máquina que lo ejecuta la que pone las bolitas. De la misma forma, decimos _“el programa falló”_, cuando en realidad fue la ejecución del programa lo que falló. 
 
-> **Pastilla**
->
-> ...
 
 [Enunciado en PDF][PDF]
 
