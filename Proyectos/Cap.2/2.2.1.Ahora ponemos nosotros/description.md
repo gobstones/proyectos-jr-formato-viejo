@@ -12,31 +12,12 @@ Explorá el entorno para descubrir cómo agregar comandos primitivos a un progra
 ![Caja de herramientas][Imagen2]
 </center>
 
-<style>
-table, th {
-    border: 1px solid black;
-    text-align: left;
-}
-</style>
-<center>
-<table style="width:80%">
-  <tr><th>
-    <b>Pastilla:</b> Para tener en cuenta
-  </th></tr>
-  <tr><th>
-  Los colores de las bolitas en Gobstones son <code>Azul</code>, <code>Negro</code>, <code>Rojo</code> y <code>Verde</code>. Llamamos tablero  inicial al tablero en el que la máquina empieza a ejecutar el programa. Y al tablero que la máquina deja cuando termina de ejecutar el programa lo llamamos tablero final. La celda actual es la celda que el cabezal tiene justo debajo, y es la única en la que puede realizar acciones en cada momento.
-  </th></tr>
-</table>
-<p>
-<table style="width:80%">
-  <tr><th>
-    <b>Pastilla:</b> Cuestión de argumento 
-  </th></tr>
-  <tr><th>
-  El comando primitivo <code>Poner</code> tiene un agujero. En ese agujero hay que poner un color. Al valor que ponés en el agujero se lo llama argumento. Por ejemplo, <code>Rojo</code> es el argumento en <code>Poner(Rojo)</code>.
-  </th></tr>
-</table>
-</center>
+> **Para tener en cuenta**
+>  Los colores de las bolitas en Gobstones son `Azul`, `Negro`, `Rojo` y `Verde`. Llamamos tablero  inicial al tablero en el que la máquina empieza a ejecutar el programa. Y al tablero que la máquina deja cuando termina de ejecutar el programa lo llamamos tablero final. La celda actual es la celda que el cabezal tiene justo debajo, y es la única en la que puede realizar acciones en cada momento.
+>
+
+> **Cuestión de argumento**
+> El comando primitivo `Poner` tiene un agujero. En ese agujero hay que poner un color. Al valor que ponés en el agujero se lo llama argumento. Por ejemplo, `Rojo` es el argumento en `Poner(Rojo)`.
 
 [Enunciado en PDF][PDF]
 
