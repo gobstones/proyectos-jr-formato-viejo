@@ -2,22 +2,9 @@
 
 Tenés que construir un programa que haga que la celda quede vacía. Vas a precisar nuevos comandos primitivos. ¡A explorar! 
 
-<style>
-table, th {
-    border: 1px solid black;
-    text-align: left;
-}
-</style>
-<center>
-<table style="width:80%">
-  <tr><th>
-    <b>Pastilla:</b> ¿Quién hace las cosas? 
-  </th></tr>
-  <tr><th>
-El programa, realmente, no hace nada: es la máquina la que hace, cuando ejecuta el programa. Pero es un poco más cómodo decir que es el programa el que hace, por lo que vamos a empezar a decirlo así.
-  </th></tr>
-</table>
-</center>
+> **¿Quién hace las cosas?**
+>
+> El programa, realmente, no hace nada: es la máquina la que hace, cuando ejecuta el programa. Pero es un poco más cómodo decir que es el programa el que hace, por lo que vamos a empezar a decirlo así.
 
 [Enunciado en PDF][PDF]
 
