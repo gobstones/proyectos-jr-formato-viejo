@@ -6,23 +6,9 @@ Tenés que hacer algo muy parecido a lo que hiciste en los proyectos anteriores:
 ![Tablero final a obtener][Imagen1]
 </center>
 
-<style>
-table, th {
-    border: 1px solid black;
-    text-align: left;
-}
-</style>
-<center>
-<table style="width:80%"> 
-  <tr><th>
-    <b>Pastilla:</b> La clave está en la Rosa de los Vientos
-  </th></tr>
-  <tr><th>
-El comando <code>Mover</code> precisa una dirección. En Gobstones, las direcciones son <code>Norte</code>, <code>Este</code>, <code>Sur</code> y <code>Oeste</code>. Cuando tengas dudas, chequeá la rosa de los vientos que se encuentra arriba a la derecha. 
-Ah! Un dato interesante: si leés las direcciones desde la N y hacia la izquierda se forma No sé. 
-  </th></tr>
-</table>
-</center>
+|**Pastilla:** La clave está en la Rosa de los Vientos|
+|-----------------------------------------------------|
+|El comando `Mover` precisa una dirección. En Gobstones, las direcciones son `Norte`, `Este`, `Sur` y `Oeste`. Cuando tengas dudas, chequeá la rosa de los vientos que se encuentra arriba a la derecha. ¡Ah! Un dato interesante: si leés las direcciones desde la N y hacia la izquierda se forma _No sé_.|
 
 <center>
 ![Rosa de los vientos][Imagen2]
