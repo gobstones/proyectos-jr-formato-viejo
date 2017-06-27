@@ -14,7 +14,7 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 > Si querés elegir el tablero inicial vos, deshabilitá la opción de tablero aleatorio (las flechitas al lado del botón de ejecución), y elegí el tablero que quieras (el menú arriba a la izquierda del sector del tablero).
 > <center>
 > ![Opción de tablero aleatorio y menú de tableros][Imagen2]
-> <\center>
+> </center>
 
 .
 
