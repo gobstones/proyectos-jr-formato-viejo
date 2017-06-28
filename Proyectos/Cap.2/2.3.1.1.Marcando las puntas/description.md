@@ -25,7 +25,7 @@ Investigá el entorno para descubrir algo que te permita conseguir este objetivo
 
 [Enunciado en PDF][PDF]
 
-[Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.3.1.1.Marcando%20las%20puntas/Imagen1-small-64.png "Algunos tableros finales resultado del programa"
+[Imagen1]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.3.1.1.Marcando%20las%20puntas/Imagen1-small.png "Algunos tableros finales resultado del programa"
 
 [Imagen2]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.2/2.3.1.1.Marcando%20las%20puntas/Imagen2-small.png "Opción de tablero aleatorio y menú de tableros"
 
