@@ -1,15 +1,16 @@
 {
   "name": "Programo el cuadrado",
+  "type": "blocks",
   "library": {
-    "visible": false
+    "visible": true
   },
   "board": {
     "active": 1,
     "initial_board_source": "selected",
-    "visible_edition": false,
+    "visible_edition": true,
     "user_permissions": {
-      "can_change_source": false,
-      "can_edit_board": false
+      "can_change_source": true,
+      "can_edit_board": true
     }
   },
   "execution_speed": {
@@ -25,12 +26,5 @@
       "can_toggle_visibility": true
     }
   },
-  "blocks": {
-	"visible": [     "Poner", "Mover", "Sacar"
-               ,     "IrAlBorde"
-               ,     "Color", "Direccion"
-    ],            
-	"disabled": [    "Sacar"
-                ]
-  }
+  "blocks": {}
 }
