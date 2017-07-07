@@ -30,7 +30,8 @@
                ,     "IrAlBorde"
                ,     "Color", "Direccion"
     ],            
-	"disabled": [ "Sacar"
+	"disabled": [      "Sacar"
+                ,      "IrAlBorde"
                 ]
   }
 }
