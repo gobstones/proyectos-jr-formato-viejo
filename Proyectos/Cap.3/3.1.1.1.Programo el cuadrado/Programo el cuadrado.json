@@ -26,12 +26,10 @@
     }
   },
   "blocks": {
-	"visible": [     "Poner", "Mover", "Sacar"
-               ,     "IrAlBorde"
+	"visible": [     "Poner", "Mover", "Sacar", "IrAlBorde"
                ,     "Color", "Direccion"
     ],            
-	"disabled": [      "Sacar"
-                ,      "IrAlBorde"
+	"disabled": [      "Sacar", "IrAlBorde"
                 ]
   }
 }
