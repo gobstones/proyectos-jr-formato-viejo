@@ -23,4 +23,4 @@ Acordate, al terminar, de volver a guardar tu solución con un nombre diferente 
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.1.1.1.Programo%20el%20cuadrado%2C%20programo%20el%20cuadrado/description.pdf "Enunciado de 'Programo el cuadrado, programo el cuadrado' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.1.1.2.Programo%20el%20cuadrado%2C%20programo%20el%20cuadrado/description.pdf "Enunciado de 'Programo el cuadrado, programo el cuadrado' en PDF"
