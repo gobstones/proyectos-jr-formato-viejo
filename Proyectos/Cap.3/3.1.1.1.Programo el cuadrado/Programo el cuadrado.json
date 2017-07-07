@@ -4,7 +4,7 @@
     "visible": false
   },
   "board": {
-    "active": 2,
+    "active": 1,
     "initial_board_source": "selected",
     "visible_edition": false,
     "user_permissions": {
