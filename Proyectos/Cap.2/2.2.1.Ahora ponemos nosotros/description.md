@@ -20,7 +20,7 @@ Explorá el entorno para descubrir cómo agregar comandos primitivos a un progra
 
 > **Cuestión de argumento**
 >
-> El comando primitivo `Poner` tiene un agujero. En ese agujero hay que poner un color. Al valor que ponés en el agujero se lo llama argumento. Por ejemplo, `Rojo` es el argumento en `Poner(Rojo)`.
+> El comando primitivo `Poner` tiene un _agujero_. En ese agujero hay que poner un color. Al valor que ponés en el agujero se lo llama **argumento**. Por ejemplo, `Rojo` es el argumento en `Poner(Rojo)`.
 
 [Enunciado en PDF][PDF]
 
