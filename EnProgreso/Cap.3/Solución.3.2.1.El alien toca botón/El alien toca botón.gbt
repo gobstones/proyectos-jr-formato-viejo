@@ -1,7 +1,0 @@
-procedure MoverAlienALaDerecha() {
-Sacar(Verde) 
-Mover(Este)
-Poner(Verde)
-}
-
-procedure TocarBoton() { Sacar(Rojo) }
