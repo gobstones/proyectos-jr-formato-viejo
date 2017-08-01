@@ -1,0 +1,7 @@
+﻿procedure MoverABetoAl_(dir) {
+    Sacar(Azul)
+    Mover(dir)
+    if (hayBolitas(Negro))
+        { BOOM("Tocaste una pared explosiva") }
+    Poner(Azul)
+}
