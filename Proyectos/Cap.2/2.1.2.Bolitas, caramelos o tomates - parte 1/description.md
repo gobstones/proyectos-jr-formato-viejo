@@ -9,8 +9,8 @@ A) Ejecutá el programa y observá como el granjero siembra tomates y luego los 
    ¿En qué se parece lo que acabamos de ver con el proyecto “Simulando repartir caramelos”? Ambas tienen la misma estructura, en tanto se trata de distribuir ciertos elementos y luego recolectar otros. 
    Más allá de que la actividad plantea un contexto diferente, es importante identificar que desde una perspectiva lógica las actividades son equivalentes.
    
-   Ahora pasá a la parte 2.
-
+   Cuando hayas terminado, no te olvides de pasar a la parte 2.
+   
 [Enunciado en PDF][PDF]
 
 [PDF]:
