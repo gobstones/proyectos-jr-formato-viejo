@@ -1,6 +1,6 @@
 # Proyecto 3.1.3.1. Dos cuadrados, pero más fáciles 
 
-A) La idea es que de nuevo dibujes dos cuadrados rojos, como en la actividad “Programo el cuadrado, programo el cuadrado”, pero en esta ocasión te pedimos que encuentres una forma de definir tus propios comandos; en el proyecto vas a encontrar una ayuda. Indagá cómo completar las partes que ya vienen empezadas, y cómo usarlas. El tablero final es igual que el que pedía la actividad mencionada.
+A) La idea es que de nuevo dibujes dos cuadrados rojos, como en la actividad *“Programo el cuadrado, programo el cuadrado”*, pero en esta ocasión te pedimos que encuentres una forma de definir tus propios comandos; en el proyecto vas a encontrar una ayuda. Indagá cómo completar las partes que ya vienen empezadas, y cómo usarlas. El tablero final es igual que el que pedía la actividad mencionada.
 
 <center>
 ![Tablero final esperado en la parte 1]()
