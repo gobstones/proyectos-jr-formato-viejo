@@ -1,55 +1,56 @@
-procedure MoverProtagonistaAl(dir) {
-    if (hayProtagonista() && todaviaNoHuyo()) {
-      nroAzules := nroBolitas(Azul)
-      repeat (nroBolitas(Azul)) { Sacar(Azul) }
-      Mover(dir)
-      if ((nroBolitas(Verde) > nroAzules) || hayBolitas(Negro)) { Sacar(Rojo) }
-      repeat (nroAzules) { Poner(Azul) }
-    }
+procedure MoverProtagonistaAl_(dir) {
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxTodaviaNoHuyo())   { BOOM("La protagonista ya huyo") }
+    nroAzules := nroBolitas(Azul)
+    repeat (nroAzules) { Sacar(Azul) }
+    Mover(dir)
+    if ((nroBolitas(Verde) > nroAzules)) { BOOM("Todavia no estoy lista para enfrentar este desafio") }
+    if (hayBolitas(Negro)) { BOOM("Ya resolvi este desafio") }
+    repeat (nroAzules) { Poner(Azul) }
 }
 
 procedure AgarrarLaLlave() {
-    if (not hayProtagonista()) { Sacar(Rojo) }
-    if (not hayLlave())        { Sacar(Rojo) }
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxHayLlave())        { BOOM("No estoy sobre la llave") }
     Sacar(Verde) Poner(Azul)
 }
 
 procedure AbrirElCofreYAgarrarElSombrero() {
-    if (not hayProtagonista()) { Sacar(Rojo) }
-    if (not hayCofre())        { Sacar(Rojo) }
-    if (not tieneLlave())      { Sacar(Rojo) }
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxHayCofre())        { BOOM("No estoy sobre el cofre") }
+    if (not auxTieneLlave())      { BOOM("No tengo la llave") }
     Poner(Negro) Poner(Azul)
 }
 
 procedure DarElSombreroAlMago() {
-    if (not hayProtagonista()) { Sacar(Rojo) }
-    if (not hayMago())         { Sacar(Rojo) }
-    if (not tieneSombrero())   { Sacar(Rojo) }
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxHayMago())         { BOOM("No estoy sobre el mago") }
+    if (not auxTieneSombrero())   { BOOM("No tengo el sombrero") }
     Poner(Negro) Poner(Azul)
 }
 
 procedure AtacarAlCaballeroConLaEspada() {
-    if (not hayProtagonista()) { Sacar(Rojo) }
-    if (not hayCaballero())    { Sacar(Rojo) }
-    if (not tieneEspada())     { Sacar(Rojo) }
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxHayCaballero())    { BOOM("No estoy donde esta el caballero") }
+    if (not auxTieneEspada())     { BOOM("No tengo la espada") }
     Poner(Negro) Poner(Azul)
 }
 
 procedure HuirEnElUnicornio() {
-    if (not hayProtagonista()) { Sacar(Rojo) }
-    if (not hayUnicornio())    { Sacar(Rojo) }
-    if (not tieneAlNovio())    { Sacar(Rojo) }
+    if (not auxHayProtagonista()) { BOOM("La protagonista no esta en esta celda") }
+    if (not auxHayUnicornio())    { BOOM("No estoy donde esta el unicornio") }
+    if (not auxTieneAlNovio())    { BOOM("No rescate aun a mi novio") }
     Poner(Negro) Poner(Azul)
 }
 
-function todaviaNoHuyo()   { return(True) }
-function hayProtagonista() { return(hayBolitas(Azul)) }
-function tieneLlave()      { return(nroBolitas(Azul)  == 2) }
-function tieneSombrero()   { return(nroBolitas(Azul)  == 3) }
-function tieneEspada()     { return(nroBolitas(Azul)  == 4) }
-function tieneAlNovio()    { return(nroBolitas(Azul)  == 5) }
-function hayLlave()        { return(nroBolitas(Verde) == 1) }
-function hayCofre()        { return(nroBolitas(Verde) == 2) }
-function hayMago()         { return(nroBolitas(Verde) == 3) }
-function hayCaballero()    { return(nroBolitas(Verde) == 4) }
-function hayUnicornio()    { return(nroBolitas(Verde) == 5) } 
+function auxTodaviaNoHuyo()   { IrAlBorde(Sur) IrAlBorde(Este) return(not hayBolitas(Negro)) }
+function auxHayProtagonista() { return(hayBolitas(Azul)) }
+function auxTieneLlave()      { return(nroBolitas(Azul)  == 2) }
+function auxTieneSombrero()   { return(nroBolitas(Azul)  == 3) }
+function auxTieneEspada()     { return(nroBolitas(Azul)  == 4) }
+function auxTieneAlNovio()    { return(nroBolitas(Azul)  == 5) }
+function auxHayLlave()        { return(nroBolitas(Verde) == 1) }
+function auxHayCofre()        { return(nroBolitas(Verde) == 2) }
+function auxHayMago()         { return(nroBolitas(Verde) == 3) }
+function auxHayCaballero()    { return(nroBolitas(Verde) == 4) }
+function auxHayUnicornio()    { return(nroBolitas(Verde) == 5) } 
