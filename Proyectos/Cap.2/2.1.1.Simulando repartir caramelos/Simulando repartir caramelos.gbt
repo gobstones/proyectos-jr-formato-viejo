@@ -26,11 +26,15 @@ procedure IrAlEscritorio()
     AuxPonerMaestro()
   }
 
-procedure AuxSacarMaestro() 
- { repeat(2) { Sacar(Negro) } }
+procedure AuxSacarMaestro() { 
+  if (nroBolitas(Negro) < 2) { BOOM("No está el maestro en esta celda") }
+  repeat(2) { Sacar(Negro) } 
+}
 
-procedure AuxPonerMaestro() 
- { repeat(2) { Poner(Negro) } }
+procedure AuxPonerMaestro() { 
+  if (nroBolitas(Negro) >= 2) { BOOM("Ya está el maestro en esta celda") }
+  repeat(2) { Poner(Negro) } 
+}
 
 procedure AuxCambiarVerdePorAzulYRoja() {
     if (hayBolitas(Verde)) 
