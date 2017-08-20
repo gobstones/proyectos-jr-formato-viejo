@@ -31,11 +31,15 @@ procedure IrAlOrigen()
     AuxPonerCursor()
   }
 
-procedure AuxSacarCursor() 
- { repeat(2) { Sacar(Negro) } }
+procedure AuxSacarCursor() { 
+  if (nroBolitas(Negro) < 2) { BOOM("No hay suficientes bolitas negras") }
+  repeat(2) { Sacar(Negro) } 
+}
 
-procedure AuxPonerCursor() 
- { repeat(2) { Poner(Negro) } }
+procedure AuxPonerCursor() { 
+  if (nroBolitas(Negro) >= 2) { BOOM("Ya hay suficientes bolitas negras") }
+  repeat(2) { Poner(Negro) } 
+}
 
 procedure AuxCambiarVerdePorAzulYRoja() { 
     if (hayBolitas(Verde)) 
