@@ -11,7 +11,7 @@ procedure MeterElGol() {
 procedure AvanzarYPatear(){ }
 
 procedure PatearLaPelota() {
-  MoverElPieDeBeto()
+  MoverElPieDelBeto()
   SacarLaPelota()
   Mover(Este)
   Mover(Este)
@@ -20,14 +20,14 @@ procedure PatearLaPelota() {
   Mover(Oeste)
 }
 
-procedure MoverABetoAlEste(){ }
+procedure MoverAlBetoAlEste(){ }
 
-procedure MoverElPieDeBeto(){ }
+procedure MoverElPieDelBeto(){ }
 
-procedure PonerLaPelota(){ }
+procedure PonerLaPelota(){ Poner(Negro) }
 
 procedure SacarLaPelota(){ }
 
-procedure PonerABeto(){ }
+procedure PonerAlBeto(){ }
 
-procedure SacarABeto(){ }
+procedure SacarAlBeto(){ Sacar(Azul) Sacar(Azul) }
