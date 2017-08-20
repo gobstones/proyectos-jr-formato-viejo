@@ -22,7 +22,7 @@ procedure PatearLaPelota() {
 
 procedure MoverAlBetoAlEste(){ }
 
-procedure MoverElPieDelBeto(){ }
+procedure MoverElPieDelBeto(){ Poner(Azul) Sacar(Azul) }
 
 procedure PonerLaPelota(){ Poner(Negro) }
 
@@ -30,4 +30,4 @@ procedure SacarLaPelota(){ }
 
 procedure PonerAlBeto(){ }
 
-procedure SacarAlBeto(){ Sacar(Azul) Sacar(Azul) }
+procedure SacarAlBeto(){ Sacar(Azul) }
