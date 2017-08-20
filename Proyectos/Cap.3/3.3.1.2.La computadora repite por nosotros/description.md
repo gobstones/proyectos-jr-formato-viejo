@@ -11,4 +11,4 @@ Una vez que te sali√≥ el procedimiento para poner 1500 bolitas rojas usando un √
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.3.1.1.La%20computadora%20repite%20por%20nosotros/description.pdf "Enunciado de 'La computadora repite por nosotros' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.3.1.2.La%20computadora%20repite%20por%20nosotros/description.pdf "Enunciado de 'La computadora repite por nosotros' en PDF"
