@@ -1,4 +1,4 @@
-#Proyecto 3.2.4. Poner muchas bolitas se vuelve incómodo
+#Proyecto 3.3.1.1. Poner muchas bolitas se vuelve incómodo
 
 La idea de esta actividad es poner muchas bolitas. Al principio vas a ver que, según cuántas bolitas haya que poner, eso puede ser incómodo. Por eso, es necesario que busquemos herramientas nuevas para que sea más fácil. Seguí las tareas propuestas. 
 1. Escribir en una hoja de papel los procedimientos `Poner5Rojas`, `Poner10Rojas` y `Poner16Rojas` que pongan 5, 10 y 16 bolitas rojas respectivamente, siempre en la celda actual. Para hacerlos, se puede utilizar el comando primitivo `Poner` (y también los procedimientos que definís...)
