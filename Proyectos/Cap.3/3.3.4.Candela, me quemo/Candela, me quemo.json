@@ -18,8 +18,7 @@
                , "Color", "Direccion", "Numero"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
-                , "Color"
+	"disabled": [ 
                 ]
   }
 }
