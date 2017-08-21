@@ -2,4 +2,7 @@ program {
     
 }
 
-procedure UsarMatafuego() { Sacar(Rojo) Poner(Negro) }
+procedure UsarMatafuego() { 
+   Sacar(Rojo) 
+   Poner(Negro) 
+}
