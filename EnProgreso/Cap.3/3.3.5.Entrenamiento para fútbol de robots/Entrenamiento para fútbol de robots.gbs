@@ -3,7 +3,7 @@ program {
 }
 
 procedure PatearLaPelota() {
-  MoverElPieDeBeto()
-  repeat (3) { MoverLaPelotaAl(Este) }
+  MoverElPieDelBeto()
+  repeat (3) { MoverLaPelotaAl_(Este) }
   repeat (3) { Mover(Oeste) }
 }

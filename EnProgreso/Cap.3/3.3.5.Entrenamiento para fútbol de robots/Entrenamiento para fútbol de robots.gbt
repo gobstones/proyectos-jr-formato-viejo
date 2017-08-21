@@ -1,12 +1,13 @@
-﻿procedure MoverABetoAl(dir) {
-  repeat (2) { Sacar(Azul) }
+﻿procedure MoverAlBetoAl_(dir) {
+  if (not hayBolitas(Azul)) { BOOM("No está Beto en esta celda") }
+  Sacar(Azul)
   Mover(dir)
-  repeat (2) { Poner(Azul) }
+  Poner(Azul)
 }
 
-procedure MoverElPieDeBeto() { Sacar(Azul) Poner(Azul) }
+procedure MoverElPieDelBeto() { Sacar(Azul) Poner(Azul) }
 
-procedure MoverLaPelotaAl(dir) {
+procedure MoverLaPelotaAl_(dir) {
   Sacar(Negro)
   Mover(dir)
   Poner(Negro)
