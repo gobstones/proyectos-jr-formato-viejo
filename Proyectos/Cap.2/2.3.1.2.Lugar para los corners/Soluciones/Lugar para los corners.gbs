@@ -1,4 +1,5 @@
 program {
+    IrAlBorde(Sur)
     IrAlBorde(Este)
     Mover(Norte)      Poner(Rojo)
     Mover(Oeste)      Poner(Rojo)
