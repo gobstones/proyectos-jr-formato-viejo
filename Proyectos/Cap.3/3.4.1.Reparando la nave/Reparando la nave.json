@@ -7,7 +7,7 @@
   "execution_speed": { "active": "high",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": null, "visible": false,
+  "attire": { "active": "Reparando la nave", "visible": true,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
