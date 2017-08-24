@@ -7,7 +7,7 @@
   "execution_speed": { "active": "instantaneous",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": "Apagar la luz, o prenderla", "visible": true,
+  "attire": { "active": "Apagar la luz, o prenderla", "visible": false,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
@@ -23,7 +23,12 @@
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Mover", "Sacar", "IrAlBorde"
+                , "RepeticionSimple"
+                , "Direccion", "Numero"
+                , "nroBolitas"
+                , "OperadorNumerico"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
