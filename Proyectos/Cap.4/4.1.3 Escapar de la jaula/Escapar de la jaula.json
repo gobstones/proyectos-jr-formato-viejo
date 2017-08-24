@@ -1,13 +1,13 @@
 {
   "name": "Escapar de la jaula",
   "library": { "visible": false },
-  "board": { "active": 4, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 4, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": null, "visible": false,
+  "attire": { "active": "Escapar de la jaula", "visible": true,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
