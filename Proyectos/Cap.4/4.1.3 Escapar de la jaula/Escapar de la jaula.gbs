@@ -1,4 +1,3 @@
-program {  AyudarAlRatonASalir() }
+program {   
 
-procedure  AyudarAlRatonASalir() 
-{ MoverRatonAl(aDondeApuntaLaFlecha()) }
+}
