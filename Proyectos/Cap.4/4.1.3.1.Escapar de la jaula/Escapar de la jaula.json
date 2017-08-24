@@ -21,7 +21,11 @@
                , "OperadorNumerico"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+                , "RepeticionSimple"
+                , "Color", "Direccion", "Numero"
+                , "nroBolitas"
+                , "OperadorNumerico"
                 ]
   }
 
