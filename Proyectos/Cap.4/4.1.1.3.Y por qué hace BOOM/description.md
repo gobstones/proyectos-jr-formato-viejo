@@ -10,4 +10,4 @@ Para terminar corregí todos los errores para que el programa haga lo que se esp
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.1.3.Y%20por%20qu%C3%A9%20hace%20BOOM/description.pdf "Enunciado de '¿Y por qué hace BOOM?' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.1.3.Y%20por%20qu%C3%A9%20hace%20BOOM/Recursos/description.pdf "Enunciado de '¿Y por qué hace BOOM?' en PDF"

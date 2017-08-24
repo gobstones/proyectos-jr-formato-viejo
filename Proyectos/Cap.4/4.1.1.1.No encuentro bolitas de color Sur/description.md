@@ -8,4 +8,4 @@
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.1.1.No%20encuentro%20bolitas%20de%20color%20Sur/description.pdf "Enunciado de 'No encuentro bolitas de color Sur' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.1.1.No%20encuentro%20bolitas%20de%20color%20Sur/Recursos/description.pdf "Enunciado de 'No encuentro bolitas de color Sur' en PDF"
