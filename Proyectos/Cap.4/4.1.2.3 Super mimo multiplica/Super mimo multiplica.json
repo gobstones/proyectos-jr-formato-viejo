@@ -1,7 +1,7 @@
 {
   "name": "Super mimo multiplica",
   "library": { "visible": false },
-  "board": { "active": 3, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 3, "initial_board_source": "random", "visible_edition": false,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
