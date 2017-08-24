@@ -1,4 +1,4 @@
-#Proyecto 4.1.3. Escapar de la jaula
+#Proyecto 4.1.3.1. Escapar de la jaula
 
 Un ratón está atrapado en una jaula y necesita ayuda para encontrar la salida. Tenés que construir un procedimiento `AyudarAlRatonASalir` que ayude al ratón a lograrlo. Hay un procedimiento primitivo para mover al ratón, pero la dirección que tenés que darle como argumento depende de cada jaula: fijate que en el piso están marcadas flechas que le indican al ratón la dirección que debe tomar. Vas a tener que explorar el entorno para descubrir alguna forma de usar en el programa la dirección a la que apunta la flecha. Cuando la encuentres, probá usar eso como argumento del procedimiento que mueve al ratón. Te mostramos algunos tableros iniciales, y sus correspondientes tableros finales.
  
@@ -14,4 +14,4 @@ Un ratón está atrapado en una jaula y necesita ayuda para encontrar la salida.
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.3.Escapar%20de%20la%20jaula/Recursos/description.pdf "Enunciado de 'Escapar de la jaula' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.3.1.Escapar%20de%20la%20jaula/Recursos/description.pdf "Enunciado de 'Escapar de la jaula' en PDF"
