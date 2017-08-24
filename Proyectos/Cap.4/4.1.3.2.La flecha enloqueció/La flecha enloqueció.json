@@ -1,5 +1,5 @@
 {
-  "name": "Escapar de la jaula",
+  "name": "La flecha enloqueció",
   "library": { "visible": false },
   "board": { "active": 4, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
@@ -19,9 +19,14 @@
                , "nroBolitas"
                , "FuncionesPrimitivas"
                , "OperadorNumerico"
+               , "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+                , "RepeticionSimple"
+                , "Color", "Direccion", "Numero"
+                , "nroBolitas"
+                , "OperadorNumerico"
                 ]
   }
 
