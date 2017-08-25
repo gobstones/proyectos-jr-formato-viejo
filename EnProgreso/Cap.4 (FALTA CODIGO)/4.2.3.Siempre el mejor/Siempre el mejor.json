@@ -14,7 +14,6 @@
 	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
-               , "RepeticionSimple"
                , "AlternativaCompleta"
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
@@ -23,8 +22,9 @@
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ "Poner", "Mover", "IrAlBorde"
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
                 , "Direccion", "Numero"
+                , "RepeticionSimple"
                 , "puedeMover", "hayBolitas"
                 , "OperadorNumerico"
                 , "siguiente", "previo", "opuesto"
