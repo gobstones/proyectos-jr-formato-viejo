@@ -1,75 +1,29 @@
 {
   "name": "No, no y no",
-  "type": "blocks",
-  "library": {
-    "visible": true
+  "library": { "visible": false },
+  "board": { "active": 2, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
-  "source": {
-    "visible": true
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
   },
-  "board": {
-    "active": 2,
-    "initial_board_source": "selected",
-    "visible_edition": true,
-    "user_permissions": {
-      "can_change_source": true,
-      "can_edit_board": true
-    }
-  },
-  "execution_speed": {
-    "active": "instantaneous",
-    "user_permissions": {
-      "can_change_speed": true
-    }
-  },
-  "attire": {
-    "active": null,
-    "visible": false,
-    "user_permissions": {
-      "can_toggle_visibility": true
-    }
+  "attire": { "active": null, "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
-    "visible": [
-      "Comandos",
-      "ComandosPrimitivos",
-      "Poner",
-      "Mover",
-      "Sacar",
-      "IrAlBorde",
-      "VaciarTablero",
-      "BOOM",
-      "ProcedimientosPrimitivos",
-      "Procedimientos",
-      "Alternativas",
-      "AlternativaSimple",
-      "AlternativaCompleta",
-      "Repeticiones",
-      "RepeticionSimple",
-      "RepeticionCondicional",
-      "CategoriaAsignacion",
-      "Asignacion",
-      "Expresiones",
-      "Literales",
-      "Color",
-      "Direccion",
-      "Numero",
-      "Booleano",
-      "ExpresionesPrimitivas",
-      "puedeMover",
-      "hayBolitas",
-      "nroBolitas",
-      "FuncionesPrimitivas",
-      "Funciones",
-      "Operaciones",
-      "OperadorNumerico",
-      "OperadorDeComparacion",
-      "not",
-      "OperadorLogico",
-      "siguiente",
-      "previo",
-      "opuesto"
-    ],
-    "disabled": []
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "OperadorNumerico", "OperadorDeComparacion", "OperadorDeNegacion"
+               , "siguiente", "previo", "opuesto"
+               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+    ],            
+	"disabled": [ 
+                ]
   }
 }
