@@ -1,7 +1,7 @@
 {
   "name": "Siempre el mejor",
   "library": { "visible": false },
-  "board": { "active": 20, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
@@ -15,7 +15,7 @@
                , "Procedimientos primitivos"
                , "Mis procedimientos"
                , "RepeticionSimple"
-               , "AlternativaSimple", "AlternativaCompleta"
+               , "AlternativaCompleta"
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
                , "FuncionesPrimitivas"
@@ -23,7 +23,11 @@
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Mover", "IrAlBorde"
+                , "Direccion", "Numero"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
