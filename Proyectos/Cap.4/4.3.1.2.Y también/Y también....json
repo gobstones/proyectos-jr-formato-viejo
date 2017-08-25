@@ -27,7 +27,7 @@
                , "procedures_defreturn", "Definicion de funciones simples"
     ],            
 	"disabled": [ "Sacar", "IrAlBorde"
-                , "puedeMover", "hayBolitas"
+                , "puedeMover"
                 , "OperadorNumerico"
                 , "siguiente", "previo", "opuesto"
                 ]
