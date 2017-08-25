@@ -19,7 +19,7 @@
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
                , "FuncionesPrimitivas"
-               , "OperadorNumerico", "OperadorDeComparacion", "OperadorDeNegacion"
+               , "OperadorNumerico", "OperadorDeComparacion", "OperadorDeNegacion", "not"
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
