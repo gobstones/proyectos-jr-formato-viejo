@@ -1,7 +1,7 @@
 {
   "name": "Y también...",
   "library": { "visible": false },
-  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
@@ -11,7 +11,7 @@
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
-	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
                , "RepeticionSimple"
@@ -19,11 +19,16 @@
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
                , "FuncionesPrimitivas"
-               , "OperadorNumerico", "OperadorDeComparacion", "OperadorDeNegacion", "OperadorLogico"
+               , "OperadorNumerico", "OperadorDeComparacion", "not"
+               , "OperadorDeNegacion", "OperadorLogico"
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defreturn", "Definicion de funciones simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Sacar", "IrAlBorde"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
