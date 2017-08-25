@@ -1,7 +1,7 @@
 {
   "name": "No, no y no",
   "library": { "visible": false },
-  "board": { "active": 2, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
@@ -23,7 +23,12 @@
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Procedimientos simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Sacar", "IrAlBorde"
+                , "Color"
+                , "AlternativaCompleta"
+                , "puedeMover", "hayBolitas", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
