@@ -10,7 +10,7 @@ function dondeApuntaLaFlecha() {
 
 procedure MoverAlRatónA_(dir) {
  	if (nroBolitas(Azul)/=1) { BOOM("No está el ratón")   }
-  	if (nroBolitas(Verde)>1) { BOOM("Estoy en la salida") }
+  	if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
  	Sacar(Azul)
  	Mover(dir)
  	if (hayBolitas(Negro))    { BOOM("Choque contra la pared") }
