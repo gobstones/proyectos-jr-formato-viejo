@@ -16,7 +16,7 @@
                , "Mis procedimientos"
                , "RepeticionSimple"
                , "Color", "Direccion", "Numero"
-               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
     ],            
 	"disabled": [ 
                 ]

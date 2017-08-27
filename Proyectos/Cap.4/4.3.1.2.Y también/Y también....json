@@ -23,7 +23,7 @@
                , "not", "OperadorDeNegacion"
                , "OperadorLogico"
                , "siguiente", "previo", "opuesto"
-               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
                , "procedures_defreturn", "Definicion de funciones simples"
     ],            
 	"disabled": [ "Sacar", "IrAlBorde"

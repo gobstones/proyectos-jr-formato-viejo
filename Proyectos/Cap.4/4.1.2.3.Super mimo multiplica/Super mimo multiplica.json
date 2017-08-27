@@ -18,7 +18,7 @@
                , "Color", "Direccion", "Numero"
                , "nroBolitas"
                , "OperadorNumerico"
-               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
     ],            
 	"disabled": [ "Mover", "Sacar", "IrAlBorde"
                 , "Direccion"

@@ -21,7 +21,7 @@
                , "FuncionesPrimitivas"
                , "OperadorNumerico"
                , "siguiente", "previo", "opuesto"
-               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
     ],            
 	"disabled": [ "Mover", "Sacar", "IrAlBorde"
                 , "RepeticionSimple"
