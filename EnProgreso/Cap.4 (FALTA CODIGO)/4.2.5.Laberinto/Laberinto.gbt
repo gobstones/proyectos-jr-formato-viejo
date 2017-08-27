@@ -1,4 +1,5 @@
 function dondeApuntaLaFlecha() {
+   if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
    if         (nroBolitas(Rojo) == 1) { ret := Norte }
 	else { if (nroBolitas(Rojo) == 2) { ret := Este  }
     else { if (nroBolitas(Rojo) == 3) { ret := Sur   }
@@ -8,7 +9,7 @@ function dondeApuntaLaFlecha() {
     return (ret)
 }
 
-procedure MoverRatónSacandoLaFlechaAl_(dir) {
+procedure MoverAlRatónA_YSacarLaFlecha(dir) {
  	if (nroBolitas(Azul)/=1) { BOOM("No está el ratón")   }
   	if (nroBolitas(Verde)>2) { BOOM("Estoy en la salida") }
  	Sacar(Azul)
