@@ -14,7 +14,7 @@
 	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
                , "Mis procedimientos"
                , "Color", "Direccion"
-               , "procedures_defnoreturnnoparams", "Procedimientos simples"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
     ],            
 	"disabled": [ "Sacar"
                 ]
