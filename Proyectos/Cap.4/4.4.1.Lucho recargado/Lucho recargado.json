@@ -2,12 +2,12 @@
   "name": "Lucho recargado",
   "library": { "visible": false },
   "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
-    "user_permissions": { "can_change_source": true, "can_edit_board": true }
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": null, "visible": false,
+  "attire": { "active": "Lucho recargado", "visible": true,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
