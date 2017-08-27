@@ -11,7 +11,7 @@
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
-	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
                , "RepeticionSimple"
@@ -19,6 +19,7 @@
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
                , "FuncionesPrimitivas"
+               , "Mis funciones"
                , "OperadorNumerico", "OperadorDeComparacion"
                , "not", "OperadorDeNegacion"
                , "OperadorLogico"
