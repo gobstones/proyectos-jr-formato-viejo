@@ -19,6 +19,7 @@
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
                , "FuncionesPrimitivas"
+               , "Mis Funciones"
                , "OperadorNumerico", "OperadorDeComparacion"
                , "not", "OperadorDeNegacion"
                , "siguiente", "previo", "opuesto"
