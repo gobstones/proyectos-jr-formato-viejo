@@ -1,4 +1,4 @@
-function nroBolitasPrimeraCelda_(color) {
+function nroBolitas_EnLaPrimeraCelda(color) {
   IrAlBorde(Oeste)
   return (nroBolitas(color))
 }
