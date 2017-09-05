@@ -1,34 +1,35 @@
-program {
-  MonocromatizarImagen()
+﻿program {
+  ConvertirImagenAMonocromático()
 }
 
-procedure MonocromatizarImagen() {
+procedure ConvertirImagenAMonocromático() {
   repeat (9) { 
-     MonocromatizarFila() 
+     ConvertirFilaDePíxelesAMonocromático() 
      Mover(Norte) 
   }
-  MonocromatizarFila()
+  ConvertirFilaDePíxelesAMonocromático()
   IrAlBorde(Sur)
 }
 
-procedure MonocromatizarFila() {
+procedure ConvertirFilaDePíxelesAMonocromático() {
   repeat (9) {
-    MonocromatizarCelda() 
+    ConvertirAPíxelMonocromático() 
     Mover(Este) 
   }
-  MonocromatizarCelda()
+  ConvertirAPíxelMonocromático()
   IrAlBorde(Oeste)
 }
 
-procedure MonocromatizarCelda() {
-  repeat(promedioDeColores()) { Poner(Negro) }
+procedure ConvertirAPíxelMonocromático() {
+  CodificarTonoDeGris()
   SacarTodas_(Azul)
-  SacarTodas_(Verde)
-  SacarTodas_(Rojo)
+  ...
 }
 
-function promedioDeColores() {
-  return ((nroBolitas(Rojo)  +
-           nroBolitas(Verde) +
-           nroBolitas(Azul)) div 3)
+procedure CodificarTonoDeGris() {
+  repeat(promedioDeColoresRGB()) { ... }
+}
+
+function promedioDeColoresRGB() {
+  return (... div 3)
 }
