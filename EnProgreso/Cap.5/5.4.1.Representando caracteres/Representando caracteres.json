@@ -1,47 +1,39 @@
 {
   "name": "Representando caracteres",
-  "library": {
-    "visible": false
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
-  "board": {
-    "active": 1,
-    "initial_board_source": "selected",
-    "visible_edition": true,
-    "user_permissions": {
-      "can_change_source": true,
-      "can_edit_board": false
-    }
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
   },
-  "execution_speed": {
-    "active": "instantaneous",
-    "user_permissions": {
-      "can_change_speed": true
-    }
+  "attire": { "active": "Letras", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
   },
-  "attire": {
-    "active": "Letras",
-    "visible": true,
-    "user_permissions": {
-      "can_toggle_visibility": true
-    }
-  },
-      "blocks": {
-        "visible": [   "ComandosPrimitivos"
-                   ,   "ProcedimientosPrimitivos"
-                   ,   "Procedimientos"
-                   ,     "RepeticionSimple"
-                   ,     "Color", "Direccion", "Numero"
-                   ,   "ExpresionesPrimitivas"
-                   ,   "FuncionesPrimitivas"
-                   ,   "Funciones"
-                   ,   "Operaciones"
-        ],            
-        "disabled": [     "Poner", "Sacar"
-                    ,     "IrAlBorde", "VaciarTablero","BOOM"
-                    ,   "Alternativas"
-                    ,     "RepeticionSimple"
-                    ,   "ExpresionesPrimitivas"
-                    ,   "Operaciones"
-                    ]
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "Alternativas"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "not", "OperadorDeNegacion"
+               , "OperadorLogico"
+               , "siguiente", "previo", "opuesto"
+               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+               , "procedures_defreturn", "Definicion de funciones simples"
+    ],            
+	"disabled": [ "Alternativas"
+                , "puedeMover", "hayBolitas", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "not", "OperadorDeNegacion"
+                , "OperadorLogico"
+                , "siguiente", "previo", "opuesto"
+                , "procedures_defreturn", "Definicion de funciones simples"
+                ]
       }
 }
