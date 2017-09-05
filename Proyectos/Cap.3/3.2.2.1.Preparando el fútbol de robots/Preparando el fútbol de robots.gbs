@@ -14,6 +14,8 @@ procedure PatearLaPelota() {
   MoverElPieDelBeto()
   SacarLaPelota()
   Mover(Este)
+  PonerLaPelota()
+  SacarLaPelota()
   Mover(Este)
   PonerLaPelota()
   Mover(Oeste)
