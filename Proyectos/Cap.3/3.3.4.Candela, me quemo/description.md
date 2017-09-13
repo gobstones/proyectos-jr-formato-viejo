@@ -10,4 +10,4 @@
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.3.4.Candela%2C%20me%20quemo/description.pdf "Enunciado de 'Candela, me quemo' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.3/3.3.4.Candela%2C%20me%20quemo/Recursos/description.pdf "Enunciado de 'Candela, me quemo' en PDF"
