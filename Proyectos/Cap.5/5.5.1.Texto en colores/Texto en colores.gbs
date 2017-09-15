@@ -2,7 +2,9 @@
    ...
 }
 
-...
+procedure ElegirColorRojo()  { ... }
+procedure ElegirColorAzul()  { ... }
+procedure ElegirColorVerde() { ... }
 
 procedure AvanzarCursor() { Mover(Este) }
 procedure Espacio() { AvanzarCursor() }
