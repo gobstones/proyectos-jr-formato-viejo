@@ -1,0 +1,12 @@
+procedure PintarEnElLugar() {
+  Poner(Negro)
+}
+
+procedure AvanzarHaciaLaDerecha() {
+  Mover(Este)
+}
+
+procedure IniciarNuevaLinea() {
+  Mover(Sur)
+  IrAlBorde(Oeste)
+}

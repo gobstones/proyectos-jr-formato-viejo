@@ -1,0 +1,23 @@
+﻿program {
+  ImprimirUnaO()
+}
+
+procedure ImprimirUnaO() {
+  IniciarNuevaLinea()
+  DibujarLíneaDe3ConMargen()  IniciarNuevaLinea()
+  DibujarCentroConMargen()    IniciarNuevaLinea()
+  DibujarCentroConMargen()    IniciarNuevaLinea()
+  DibujarLíneaDe3ConMargen()  IniciarNuevaLinea()
+}
+
+procedure DibujarLíneaDe3ConMargen() {
+  AvanzarALaDerecha()
+  repeat(3) { HacerUnPunto() }
+}
+
+procedure DibujarCentroConMargen() {
+  AvanzarALaDerecha()
+  HacerUnPunto()
+  AvanzarALaDerecha()
+  HacerUnPunto()
+}
