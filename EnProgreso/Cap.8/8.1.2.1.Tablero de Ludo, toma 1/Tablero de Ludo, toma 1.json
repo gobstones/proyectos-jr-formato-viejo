@@ -1,0 +1,13 @@
+{
+  "name": "Tablero de Ludo, toma 1",
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
+  },
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
+  },
+  "attire": { "active": null, "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
+  }
+}

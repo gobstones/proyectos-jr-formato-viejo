@@ -1,0 +1,3 @@
+procedure Mover__Veces(dir, n) {
+  repeat(n) { Mover(dir) }
+}
