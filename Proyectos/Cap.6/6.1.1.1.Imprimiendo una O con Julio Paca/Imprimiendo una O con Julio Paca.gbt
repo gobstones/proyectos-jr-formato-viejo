@@ -1,0 +1,13 @@
+procedure HacerUnPunto() {
+  Poner(Negro)
+  Mover(Este)
+}
+
+procedure AvanzarALaDerecha() {
+  Mover(Este)
+}
+
+procedure IniciarNuevaLinea() {
+  Mover(Sur)
+  IrAlBorde(Oeste)
+}
