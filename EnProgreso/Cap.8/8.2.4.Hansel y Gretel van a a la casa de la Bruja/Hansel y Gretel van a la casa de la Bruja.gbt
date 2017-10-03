@@ -1,0 +1,23 @@
+procedure AvanzarCarreta() 
+{
+  cantDirEncontradas := 0
+  foreach dirAConsiderar in [Norte..Oeste] {
+     if (auxHaySectorDelCaminoSinMiguitaAl(dirAConsiderar))
+      then {
+             cantDirEncontradas := cantDirEncontradas + 1
+             dirEncontrada := dirAConsiderar
+           }
+  }
+  if (cantDirEncontradas!=1)
+   then { BOOM("No dejaste la miguita!") }
+   else { Mover(dirEncontrada) }
+}
+
+function auxHaySectorDelCaminoSinMiguitaAl(dir) 
+  { return (puedeMover(dir) && auxEsSectorDelCaminoSinMiguitaAl(dir)) }
+
+function auxEsSectorDelCaminoSinMiguitaAl(dir) 
+  {
+    Mover(dir)
+    return (hayBolitas(Negro) && not hayBolitas(miguita()))
+  }

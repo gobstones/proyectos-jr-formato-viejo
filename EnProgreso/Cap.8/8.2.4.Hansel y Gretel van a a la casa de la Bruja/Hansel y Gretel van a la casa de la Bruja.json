@@ -1,0 +1,32 @@
+{
+  "name": "Hansel y Gretel van a la casa de la Bruja",
+  "type": "blocks",
+  "library": {
+    "visible": true
+  },
+  "source": {
+    "visible": true
+  },
+  "board": {
+    "active": 10,
+    "initial_board_source": "selected",
+    "visible_edition": true,
+    "user_permissions": {
+      "can_change_source": true,
+      "can_edit_board": true
+    }
+  },
+  "execution_speed": {
+    "active": "instantaneous",
+    "user_permissions": {
+      "can_change_speed": true
+    }
+  },
+  "attire": {
+    "active": null,
+    "visible": false,
+    "user_permissions": {
+      "can_toggle_visibility": true
+    }
+  }
+}
