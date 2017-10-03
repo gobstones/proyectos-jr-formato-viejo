@@ -1,0 +1,9 @@
+procedure SacarTodas_(col) {
+	AuxSacarN(col,nroBolitas(col))
+}
+
+procedure AuxSacarN(col,n) {
+	repeat(n) {
+		Sacar(col)
+	}
+}
