@@ -1,0 +1,5 @@
+procedure PonerN(col,n) {
+	repeat(n) {
+		Poner(col)
+	}
+}
