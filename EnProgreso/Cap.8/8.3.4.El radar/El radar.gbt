@@ -1,0 +1,5 @@
+procedure MoverN__(n,dir) {
+	repeat(n) {
+		Mover(dir)
+	}
+}
