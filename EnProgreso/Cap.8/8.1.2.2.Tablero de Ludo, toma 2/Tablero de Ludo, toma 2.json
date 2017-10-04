@@ -1,33 +1,13 @@
 {
   "name": "Tablero de Ludo, toma 2",
-  "type": "blocks",
-  "library": {
-    "visible": true
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
-  "source": {
-    "visible": true
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": true }
   },
-  "board": {
-    "active": 1,
-    "initial_board_source": "selected",
-    "visible_edition": true,
-    "user_permissions": {
-      "can_change_source": true,
-      "can_edit_board": true
-    }
-  },
-  "execution_speed": {
-    "active": "instantaneous",
-    "user_permissions": {
-      "can_change_speed": true
-    }
-  },
-  "attire": {
-    "active": null,
-    "visible": false,
-    "user_permissions": {
-      "can_toggle_visibility": true
-    }
-  },
-  "blocks": null
+  "attire": { "active": null, "visible": false,
+    "user_permissions": { "can_toggle_visibility": true }
+  }
 }
