@@ -33,12 +33,11 @@
                 , "puedeMover", "hayBolitas", "nroBolitas"
                 , "FuncionesPrimitivas"
                 , "Mis funciones"
-                , "OperadorNumerico", "OperadorDeComparacion"
+                , "OperadorDeComparacion"
                 , "not", "OperadorDeNegacion"
                 , "OperadorLogico"
                 , "siguiente", "previo", "opuesto"
                 , "procedures_defreturn", "Definicion de funciones simples"
-                , "procedures_defnoreturn", "Definicion de procedimientos parametrizados"
                 ]
   }
 }
