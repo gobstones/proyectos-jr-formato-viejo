@@ -1,7 +1,5 @@
-procedure PosicionarseEnLaEsquina__ParaUnCuadradoDeTamano_(dirección1, dirección2, tamaño) {
-    if (not auxDeterminanUnaEsquina(dirección1, dirección2)) then {
-		BOOM("Las direcciones no determinan una esquina")
-	}
+procedure PosicionarseEnLaEsquina__ParaUnCuadradoDeTamaño_(dirección1, dirección2, tamaño) {
+    if (not auxDeterminanUnaEsquina(dirección1, dirección2)) { BOOM("Las direcciones no determinan una esquina") }
     IrAlBorde(dirección1)
 	AuxAjustar(dirección1, tamaño)
     IrAlBorde(dirección2)
@@ -9,7 +7,7 @@ procedure PosicionarseEnLaEsquina__ParaUnCuadradoDeTamano_(dirección1, direcci�
 }
 
 procedure AuxAjustar(dirección, tamaño) {
-    if (dirección == Este || dirección == Norte) then {
+    if (dirección == Este || dirección == Norte) {
 		repeat (tamaño - 1) {
 			Mover(opuesto(dirección))
 		}
@@ -17,5 +15,5 @@ procedure AuxAjustar(dirección, tamaño) {
 }
 
 function auxDeterminanUnaEsquina(d1, d2) {
-	return (d1 != d2 && d1 != opuesto(d2))
+	return (d1 /= d2 && d1 /= opuesto(d2))
 }
