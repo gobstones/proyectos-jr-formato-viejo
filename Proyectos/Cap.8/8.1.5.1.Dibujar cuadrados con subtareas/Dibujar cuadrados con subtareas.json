@@ -7,7 +7,7 @@
   "execution_speed": { "active": "instantaneous",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": null, "visible": false,
+  "attire": { "active": "Cuadrados", "visible": false,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
