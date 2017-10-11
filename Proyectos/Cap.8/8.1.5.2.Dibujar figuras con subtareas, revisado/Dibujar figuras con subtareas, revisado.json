@@ -1,5 +1,5 @@
 {
-  "name": "Dibujar cuadrados con subtareas",
+  "name": "Dibujar figuras con subtareas, revisado",
   "library": { "visible": false },
   "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
