@@ -28,7 +28,17 @@
                , "procedures_defnoreturn", "Definicion de procedimientos parametrizados"
                , "procedures_defreturn", "Definicion de funciones simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaSimple", "AlternativaCompleta"
+                , "Color", "Direccion", "Numero"
+                , "puedeMover", "hayBolitas", "nroBolitas"
+                , "Mis funciones"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "not", "OperadorDeNegacion"
+                , "OperadorLogico"
+                , "siguiente", "previo", "opuesto"
+                , "procedures_defreturn", "Definicion de funciones simples"
                 ]
   }
 }
