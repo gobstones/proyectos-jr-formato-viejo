@@ -1,4 +1,4 @@
-function estáEnLaMeta()  { return (nroBolitas(Verde) == 1) }
+function estáEnLaMeta()  { return (nroBolitas(Verde) == 2) }
 function hayLuzApagada() { return (nroBolitas(Azul)  == 1) }
 
 procedure EncenderLuz() {
