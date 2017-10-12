@@ -1,0 +1,7 @@
+﻿program {
+  EncenderLaColumnaDeLuces()
+}
+
+procedure EncenderLaColumnaDeLuces() {
+  ...
+}
