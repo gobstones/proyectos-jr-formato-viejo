@@ -30,6 +30,7 @@
     ],            
 	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                 , "RepeticionSimple"
+                , "AlternativaCompleta"
                 , "Color", "Direccion", "Numero"
                 , "puedeMover", "hayBolitas", "nroBolitas"
                 , "Mis funciones"
