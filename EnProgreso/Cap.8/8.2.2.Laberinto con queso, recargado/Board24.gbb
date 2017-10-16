@@ -23,12 +23,12 @@ cell 4 3 Azul 0 Negro 0 Rojo 2 Verde 1
 cell 5 3 Azul 0 Negro 0 Rojo 2 Verde 0
 cell 6 3 Azul 0 Negro 0 Rojo 1 Verde 0
 cell 7 3 Azul 0 Negro 0 Rojo 4 Verde 0
-cell 4 2 Azul 0 Negro 0 Rojo 1 Verde 1
+cell 4 2 Azul 1 Negro 0 Rojo 1 Verde 1
 cell 1 1 Azul 0 Negro 0 Rojo 2 Verde 1
 cell 2 1 Azul 0 Negro 0 Rojo 2 Verde 0
 cell 3 1 Azul 0 Negro 0 Rojo 2 Verde 0
 cell 4 1 Azul 0 Negro 0 Rojo 1 Verde 0
-cell 5 1 Azul 1 Negro 0 Rojo 4 Verde 1
+cell 5 1 Azul 0 Negro 0 Rojo 4 Verde 1
 cell 6 1 Azul 0 Negro 0 Rojo 4 Verde 0
 cell 7 1 Azul 0 Negro 0 Rojo 4 Verde 1
 cell 0 8 Azul 0 Negro 3 Rojo 0 Verde 0
@@ -37,7 +37,6 @@ cell 2 8 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 3 8 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 4 8 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 5 8 Azul 0 Negro 1 Rojo 0 Verde 0
-cell 6 8 Azul 0 Negro 0 Rojo 0 Verde 3
 cell 7 8 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 8 8 Azul 0 Negro 4 Rojo 0 Verde 0
 cell 0 7 Azul 0 Negro 2 Rojo 0 Verde 0
@@ -81,4 +80,5 @@ cell 5 0 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 6 0 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 7 0 Azul 0 Negro 1 Rojo 0 Verde 0
 cell 8 0 Azul 0 Negro 6 Rojo 0 Verde 0
-head 5 1
+cell 6 8 Azul 0 Negro 0 Rojo 0 Verde 3
+head 4 2

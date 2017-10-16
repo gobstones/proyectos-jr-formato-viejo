@@ -3,7 +3,7 @@
 }
 
 procedure SalirDelLaberintoComiendoElQueso() {
-  repeat(20) {
+  while (not (estoyEnLaSalida())) {
     ComerElQuesoSiHay()
     AvanzarUnPasoSiguiendoLaFlecha()
   }
@@ -44,7 +44,8 @@ procedure ComerElQueso() {
   else { Sacar(Verde) }
 }
 
-function hayQueso() { return (nroBolitas(Verde) == 1) }
+function estoyEnLaSalida() { return (nroBolitas(Verde) >= 2) }
+function hayQueso()        { return (nroBolitas(Verde) == 1) }
 
 function laFlechaApuntaAlNorte() { return (nroBolitas(Rojo) == 1) }
 function laFlechaApuntaAlEste()  { return (nroBolitas(Rojo) == 2) }

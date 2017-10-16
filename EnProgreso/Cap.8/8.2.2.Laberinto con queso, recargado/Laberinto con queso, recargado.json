@@ -14,7 +14,7 @@
 	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
-               , "RepeticionSimple"
+               , "RepeticionSimple", "RepeticionCondicional"
                , "AlternativaSimple", "AlternativaCompleta"
                , "Color", "Direccion", "Numero"
                , "puedeMover", "hayBolitas", "nroBolitas"
@@ -25,9 +25,16 @@
                , "OperadorLogico"
                , "siguiente", "previo", "opuesto"
                , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
+               , "procedures_defnoreturn", "Definicion de procedimientos parametrizados"
                , "procedures_defreturn", "Definicion de funciones simples"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+                , "RepeticionSimple"
+                , "AlternativaSimple"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico"
+                , "OperadorLogico"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
