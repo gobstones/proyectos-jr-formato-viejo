@@ -1,16 +1,18 @@
+function miguita() { return(Rojo) }
+function llegamosALoDeLaBruja() { return (nroBolitas(Negro) == 3) }
+
 procedure AvanzarCarreta() 
 {
   cantDirEncontradas := 0
   foreach dirAConsiderar in [Norte..Oeste] {
-     if (auxHaySectorDelCaminoSinMiguitaAl(dirAConsiderar))
-      then {
-             cantDirEncontradas := cantDirEncontradas + 1
-             dirEncontrada := dirAConsiderar
-           }
+     if (auxHaySectorDelCaminoSinMiguitaAl(dirAConsiderar)) {
+       cantDirEncontradas := cantDirEncontradas + 1
+       dirEncontrada := dirAConsiderar
+     }
   }
-  if (cantDirEncontradas!=1)
-   then { BOOM("No dejaste la miguita!") }
-   else { Mover(dirEncontrada) }
+  if (cantDirEncontradas == 0) { BOOM("¡No dejaste la miguita!") }
+  if (cantDirEncontradas > 1) { BOOM("Hay demasiadas miguitas. ¿Moviste el cabezal?") }
+  Mover(dirEncontrada)
 }
 
 function auxHaySectorDelCaminoSinMiguitaAl(dir) 
