@@ -11,15 +11,15 @@ procedure AvanzarCarreta()
      }
   }
   if (cantDirEncontradas == 0) { BOOM("¡No dejaste la miguita!") }
-  if (cantDirEncontradas > 1) { BOOM("Hay demasiadas miguitas. ¿Moviste el cabezal?") }
+  if (cantDirEncontradas >  1) { BOOM("Hay demasiadas miguitas. ¿Moviste el cabezal?") }
   Mover(dirEncontrada)
 }
 
-function auxHaySectorDelCaminoSinMiguitaAl(dir) 
-  { return (puedeMover(dir) && auxEsSectorDelCaminoSinMiguitaAl(dir)) }
+function auxHaySectorDelCaminoSinMiguitaAl(dir) { 
+  return (puedeMover(dir) && auxEsSectorDelCaminoSinMiguitaAl(dir)) 
+}
 
-function auxEsSectorDelCaminoSinMiguitaAl(dir) 
-  {
-    Mover(dir)
-    return (hayBolitas(Negro) && not hayBolitas(miguita()))
-  }
+function auxEsSectorDelCaminoSinMiguitaAl(dir) {
+  Mover(dir)
+  return (hayBolitas(Negro) && not hayBolitas(miguita()))
+}
