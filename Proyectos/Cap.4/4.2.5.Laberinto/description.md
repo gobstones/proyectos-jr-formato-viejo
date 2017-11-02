@@ -1,4 +1,4 @@
-#Proyecto 4.2.5. Laberinto
+#Proyecto 4.1.4. Laberinto
 
 ¿Te acordás del ratón que escapó de la jaula? Resulta que a la salida lo estaban esperando para ponerlo en un laberinto y ver si podía escaparse de él. Por suerte, en el laberinto también hay flechas que marcan el camino y sabe que tiene que dar 20 pasos para salir. Construí y probá el procedimiento `SalirDelLaberinto` que le indique al ratón lo que debe hacer para salir. Te mostramos algunos laberintos, y cómo tiene que quedar al terminar:
            
@@ -20,4 +20,4 @@ La idea es fácil: en cada paso hay que ver para dónde apunta la flecha, y saca
 
 [Enunciado en PDF][PDF]
 
-[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.2.5.Laberinto/Recursos/description.pdf "Enunciado de 'Laberinto' en PDF"
+[PDF]: https://raw.githubusercontent.com/gobstones/proyectos-jr/master/Proyectos/Cap.4/4.1.4.Laberinto/Recursos/description.pdf "Enunciado de 'Laberinto' en PDF"
