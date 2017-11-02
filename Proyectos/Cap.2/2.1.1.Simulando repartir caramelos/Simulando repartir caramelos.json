@@ -1,6 +1,7 @@
 {
   "name": "Simulando repartir caramelos",
   "library": { "visible": false },
+  "source": { "visible": false }, 
   "board": { "active": 1, "initial_board_source": "selected", "visible_edition": false,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
