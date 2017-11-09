@@ -40,7 +40,6 @@
                 , "OperadorNumerico", "OperadorDeComparacion"
                 , "OperadorDeNegacion", "OperadorLogico"
                 , "OperadorSiguiente", "OperadorPrevio", "OperadorOpuesto" 
-                , "DefinicionDeProcedimientoParametrizado"
                 , "DefinicionDeFuncionSimple"
                 , "DefinicionDeFuncionSimpleParametrizada"
                 , "DefinicionDeFuncionParametrizada"

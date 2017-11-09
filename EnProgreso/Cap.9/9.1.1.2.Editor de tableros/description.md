@@ -15,7 +15,7 @@ Cómo pudiste comprobar, un programa interactivo requiere que vos le indiques qu
 
 Cuando termines, probalo armando algunos tableros interactivamente. Buscá cómo hacer para guardar los tableros que armes, para volver a cargarlos en otros proyectos...
 
-Como desafíos adicionales, podés tratar de ver cómo hacer para que al moverse con las flechas o sacar el programa no falle, cómo hacer para ir al borde con una sola tecla y cómo hacer para poner o sacar varias bolitas al mismo tiempo. Para moverse al borde o poner muchas juntas podés usar la tecla ‘CTRL’ como modificador. 
+Como desafíos adicionales, podés tratar de ver cómo hacer para que al moverse con las flechas o sacar el programa no falle, cómo hacer para ir al borde con una sola tecla y cómo hacer para poner o sacar 10 bolitas al mismo tiempo. Para moverse al borde o poner muchas juntas podés usar la tecla ‘CTRL’ como modificador. 
 
 [Enunciado en PDF][PDF]
 
