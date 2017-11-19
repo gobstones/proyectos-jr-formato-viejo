@@ -11,10 +11,10 @@
   K_SHIFT_N -> { SacarSiPuede(Negro) }
   K_SHIFT_V -> { SacarSiPuede(Verde) }
   K_SHIFT_R -> { SacarSiPuede(Rojo)  }
-  K_ARROW_LEFT  -> { IrAlBorde(Oeste) }
-  K_ARROW_RIGHT -> { IrAlBorde(Este)  }
-  K_ARROW_DOWN  -> { IrAlBorde(Sur)   }
-  K_ARROW_UP    -> { IrAlBorde(Norte) }
+  K_CTRL_ARROW_LEFT  -> { IrAlBorde(Oeste) }
+  K_CTRL_ARROW_RIGHT -> { IrAlBorde(Este)  }
+  K_CTRL_ARROW_DOWN  -> { IrAlBorde(Sur)   }
+  K_CTRL_ARROW_UP    -> { IrAlBorde(Norte) }
   K_CTRL_A -> { PonerDiezBolitas(Azul)  }
   K_CTRL_N -> { PonerDiezBolitas(Negro) }
   K_CTRL_V -> { PonerDiezBolitas(Verde) }
@@ -30,7 +30,7 @@ procedure MoverSiPuede(direcciónAMover) {
 }
 
 procedure SacarSiPuede(colorASacar) {
-  if (puedeMover(colorASacar)) { Sacar(colorASacar) }
+  if (hayBolitas(colorASacar)) { Sacar(colorASacar) }
 }
 
 procedure PonerDiezBolitas(colorAPoner) {
