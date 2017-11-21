@@ -1,29 +1,39 @@
 {
   "name": "Snake",
-  "type": "code",
-  "library": {
-    "visible": true
+  "library": { "visible": false },
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+    "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
-  "board": {
-    "active": 1,
-    "initial_board_source": "selected",
-    "visible_edition": true,
-    "user_permissions": {
-      "can_change_source": true,
-      "can_edit_board": true
-    }
+  "execution_speed": { "active": "instantaneous",
+    "user_permissions": { "can_change_speed": false }
   },
-  "execution_speed": {
-    "active": "instantaneous",
-    "user_permissions": {
-      "can_change_speed": true
-    }
+  "attire": { "active": "Snake", "visible": true,
+    "user_permissions": { "can_toggle_visibility": true }
   },
-  "attire": {
-    "active": null,
-    "visible": false,
-    "user_permissions": {
-      "can_toggle_visibility": true
-    }
+  "blocks": {
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
+               , "Procedimientos primitivos"
+               , "Mis procedimientos"
+               , "RepeticionSimple"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Asignacion"
+               , "Color", "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "OperadorDeNegacion", "OperadorLogico"
+               , "OperadorSiguiente", "OperadorPrevio", "OperadorOpuesto" 
+               , "DefinicionDeAsociacionDeTeclaEspecial"
+               , "DefinicionDeAsociacionDeTeclaLetra"
+               , "DefinicionDeAsociacionDeTeclaNúmero"
+               , "DefinicionDeProcedimientoSimple"
+               , "DefinicionDeProcedimientoParametrizado"
+               , "DefinicionDeFuncionSimple"
+               , "DefinicionDeFuncionSimpleParametrizada"
+               , "DefinicionDeFuncionParametrizada"
+    ],            
+	"disabled": [ 
+                ]
   }
 }
