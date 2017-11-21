@@ -1,7 +1,7 @@
 {
   "name": "Definición por penal",
   "library": { "visible": false },
-  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": true,
+  "board": { "active": 1, "initial_board_source": "selected", "visible_edition": false,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
@@ -32,9 +32,18 @@
                , "DefinicionDeFuncionSimple"
                , "DefinicionDeFuncionSimpleParametrizada"
                , "DefinicionDeFuncionParametrizada"
-,     "DefinicionDeProgramaInteractivo"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Sacar", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaCompleta"
+                , "Asignacion"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico"
+                , "OperadorDeNegacion"
+                , "OperadorSiguiente", "OperadorPrevio", "OperadorOpuesto" 
+                , "DefinicionDeAsociacionDeTeclaNúmero"
+                , "DefinicionDeFuncionSimpleParametrizada"
+                , "DefinicionDeFuncionParametrizada"
                 ]
   }
 }
