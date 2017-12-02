@@ -1,7 +1,56 @@
 {
   "name": "Empanadas",
   "rules": [
-      { "when": { "blue": 0, "black": 0, "red": 0, "green": 0 }, "image": "Nro00.png" }
+      { "when": { "blue": 0, "black": 0, "red": 0, "green": 0, "head": true }, "image": "Nro00-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 1, "red": 0, "green": 0, "head": true }, "image": "Nro01-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 2, "red": 0, "green": 0, "head": true }, "image": "Nro02-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 3, "red": 0, "green": 0, "head": true }, "image": "Nro03-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 4, "red": 0, "green": 0, "head": true }, "image": "Nro04-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 5, "red": 0, "green": 0, "head": true }, "image": "Nro05-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 6, "red": 0, "green": 0, "head": true }, "image": "Nro06-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 7, "red": 0, "green": 0, "head": true }, "image": "Nro07-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 8, "red": 0, "green": 0, "head": true }, "image": "Nro08-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 9, "red": 0, "green": 0, "head": true }, "image": "Nro09-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 10, "red": 0, "green": 0, "head": true }, "image": "Nro10-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 11, "red": 0, "green": 0, "head": true }, "image": "Nro11-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 12, "red": 0, "green": 0, "head": true }, "image": "Nro12-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 13, "red": 0, "green": 0, "head": true }, "image": "Nro13-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 14, "red": 0, "green": 0, "head": true }, "image": "Nro14-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 15, "red": 0, "green": 0, "head": true }, "image": "Nro15-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 16, "red": 0, "green": 0, "head": true }, "image": "Nro16-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 17, "red": 0, "green": 0, "head": true }, "image": "Nro17-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 18, "red": 0, "green": 0, "head": true }, "image": "Nro18-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 19, "red": 0, "green": 0, "head": true }, "image": "Nro19-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 20, "red": 0, "green": 0, "head": true }, "image": "Nro20-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 21, "red": 0, "green": 0, "head": true }, "image": "Nro21-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 22, "red": 0, "green": 0, "head": true }, "image": "Nro22-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 23, "red": 0, "green": 0, "head": true }, "image": "Nro23-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 24, "red": 0, "green": 0, "head": true }, "image": "Nro24-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 25, "red": 0, "green": 0, "head": true }, "image": "Nro25-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 26, "red": 0, "green": 0, "head": true }, "image": "Nro26-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 27, "red": 0, "green": 0, "head": true }, "image": "Nro27-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 28, "red": 0, "green": 0, "head": true }, "image": "Nro28-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 29, "red": 0, "green": 0, "head": true }, "image": "Nro29-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 30, "red": 0, "green": 0, "head": true }, "image": "Nro30-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 31, "red": 0, "green": 0, "head": true }, "image": "Nro31-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 32, "red": 0, "green": 0, "head": true }, "image": "Nro32-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 33, "red": 0, "green": 0, "head": true }, "image": "Nro33-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 34, "red": 0, "green": 0, "head": true }, "image": "Nro34-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 35, "red": 0, "green": 0, "head": true }, "image": "Nro35-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 36, "red": 0, "green": 0, "head": true }, "image": "Nro36-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 37, "red": 0, "green": 0, "head": true }, "image": "Nro37-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 38, "red": 0, "green": 0, "head": true }, "image": "Nro38-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 39, "red": 0, "green": 0, "head": true }, "image": "Nro39-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 40, "red": 0, "green": 0, "head": true }, "image": "Nro40-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 41, "red": 0, "green": 0, "head": true }, "image": "Nro41-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 42, "red": 0, "green": 0, "head": true }, "image": "Nro42-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 43, "red": 0, "green": 0, "head": true }, "image": "Nro43-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 44, "red": 0, "green": 0, "head": true }, "image": "Nro44-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 45, "red": 0, "green": 0, "head": true }, "image": "Nro45-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 46, "red": 0, "green": 0, "head": true }, "image": "Nro46-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 47, "red": 0, "green": 0, "head": true }, "image": "Nro47-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 48, "red": 0, "green": 0, "head": true }, "image": "Nro48-Iluminado.png" }
+    , { "when": { "blue": 0, "black": 0, "red": 0, "green": 0 }, "image": "Nro00.png" }
     , { "when": { "blue": 0, "black": 1, "red": 0, "green": 0 }, "image": "Nro01.png" }
     , { "when": { "blue": 0, "black": 2, "red": 0, "green": 0 }, "image": "Nro02.png" }
     , { "when": { "blue": 0, "black": 3, "red": 0, "green": 0 }, "image": "Nro03.png" }
@@ -60,55 +109,6 @@
     , { "when": { "blue": 8, "black": 0, "red": 0, "green": 0 }, "image": "Empanada08.png" }
     , { "when": { "blue": 9, "black": 0, "red": 0, "green": 0 }, "image": "Empanada09.png" }
     , { "when": { "blue": 10, "black": 0, "red": 0, "green": 0 }, "image": "Empanada10.png" }   
-    , { "when": { "blue": 0, "black": 0, "red": 0, "green": 0, "head": true }, "image": "Nro00-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 1, "red": 0, "green": 0, "head": true }, "image": "Nro01-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 2, "red": 0, "green": 0, "head": true }, "image": "Nro02-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 3, "red": 0, "green": 0, "head": true }, "image": "Nro03-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 4, "red": 0, "green": 0, "head": true }, "image": "Nro04-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 5, "red": 0, "green": 0, "head": true }, "image": "Nro05-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 6, "red": 0, "green": 0, "head": true }, "image": "Nro06-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 7, "red": 0, "green": 0, "head": true }, "image": "Nro07-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 8, "red": 0, "green": 0, "head": true }, "image": "Nro08-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 9, "red": 0, "green": 0, "head": true }, "image": "Nro09-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 10, "red": 0, "green": 0, "head": true }, "image": "Nro10-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 11, "red": 0, "green": 0, "head": true }, "image": "Nro11-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 12, "red": 0, "green": 0, "head": true }, "image": "Nro12-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 13, "red": 0, "green": 0, "head": true }, "image": "Nro13-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 14, "red": 0, "green": 0, "head": true }, "image": "Nro14-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 15, "red": 0, "green": 0, "head": true }, "image": "Nro15-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 16, "red": 0, "green": 0, "head": true }, "image": "Nro16-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 17, "red": 0, "green": 0, "head": true }, "image": "Nro17-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 18, "red": 0, "green": 0, "head": true }, "image": "Nro18-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 19, "red": 0, "green": 0, "head": true }, "image": "Nro19-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 20, "red": 0, "green": 0, "head": true }, "image": "Nro20-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 21, "red": 0, "green": 0, "head": true }, "image": "Nro21-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 22, "red": 0, "green": 0, "head": true }, "image": "Nro22-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 23, "red": 0, "green": 0, "head": true }, "image": "Nro23-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 24, "red": 0, "green": 0, "head": true }, "image": "Nro24-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 25, "red": 0, "green": 0, "head": true }, "image": "Nro25-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 26, "red": 0, "green": 0, "head": true }, "image": "Nro26-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 27, "red": 0, "green": 0, "head": true }, "image": "Nro27-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 28, "red": 0, "green": 0, "head": true }, "image": "Nro28-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 29, "red": 0, "green": 0, "head": true }, "image": "Nro29-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 30, "red": 0, "green": 0, "head": true }, "image": "Nro30-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 31, "red": 0, "green": 0, "head": true }, "image": "Nro31-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 32, "red": 0, "green": 0, "head": true }, "image": "Nro32-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 33, "red": 0, "green": 0, "head": true }, "image": "Nro33-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 34, "red": 0, "green": 0, "head": true }, "image": "Nro34-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 35, "red": 0, "green": 0, "head": true }, "image": "Nro35-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 36, "red": 0, "green": 0, "head": true }, "image": "Nro36-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 37, "red": 0, "green": 0, "head": true }, "image": "Nro37-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 38, "red": 0, "green": 0, "head": true }, "image": "Nro38-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 39, "red": 0, "green": 0, "head": true }, "image": "Nro39-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 40, "red": 0, "green": 0, "head": true }, "image": "Nro40-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 41, "red": 0, "green": 0, "head": true }, "image": "Nro41-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 42, "red": 0, "green": 0, "head": true }, "image": "Nro42-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 43, "red": 0, "green": 0, "head": true }, "image": "Nro43-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 44, "red": 0, "green": 0, "head": true }, "image": "Nro44-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 45, "red": 0, "green": 0, "head": true }, "image": "Nro45-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 46, "red": 0, "green": 0, "head": true }, "image": "Nro46-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 47, "red": 0, "green": 0, "head": true }, "image": "Nro47-Iluminado.png" }
-    , { "when": { "blue": 0, "black": 48, "red": 0, "green": 0, "head": true }, "image": "Nro48-Iluminado.png" }
     , { "when": { "blue": 1, "black": 0, "red": 1, "green": 0 }, "image": "Empanada01-Iluminada.png" }
     , { "when": { "blue": 2, "black": 0, "red": 1, "green": 0 }, "image": "Empanada02-Iluminada.png" }
     , { "when": { "blue": 3, "black": 0, "red": 1, "green": 0 }, "image": "Empanada03-Iluminada.png" }
