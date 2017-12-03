@@ -5,7 +5,7 @@
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
   "execution_speed": { "active": "instantaneous",
-    "user_permissions": { "can_change_speed": false }
+    "user_permissions": { "can_change_speed": true }
   },
   "attire": { "active": "Snake", "visible": true,
     "user_permissions": { "can_toggle_visibility": true }
@@ -14,7 +14,7 @@
 	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
-               , "RepeticionSimple"
+               , "RepeticionSimple", "RepeticionCondicional"
                , "AlternativaSimple", "AlternativaCompleta"
                , "Asignacion"
                , "Color", "Direccion", "Numero"

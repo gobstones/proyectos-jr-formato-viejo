@@ -1,17 +1,11 @@
-procedure PonerMuchas(n, color)
-  { repeat (n) { Poner(color) } } 
+procedure SacarTodas_(color) {
+  Sacar__Veces(color, nroBolitas(color))
+}
 
-procedure SacarMuchas(n, color)
-  { repeat (n) { Sacar(color) } } 
+procedure Poner__Veces(color, n) {
+  repeat(n) { Poner(color) }
+}
 
-procedure SacarTodas(color)
-  { SacarMuchas(nroBolitas(color), color) } 
-
-// -----------------------------
-function opuesto(dir) {
-  if (dir == Norte) { ret := Sur   }
-  if (dir == Este)  { ret := Oeste }
-  if (dir == Sur)   { ret := Norte }
-  if (dir == Oeste) { ret := Este  }
-  return (ret)
+procedure Sacar__Veces(color, n) {
+  repeat(n) { Sacar(color) }
 }
