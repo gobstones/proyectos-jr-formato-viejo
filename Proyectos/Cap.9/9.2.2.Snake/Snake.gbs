@@ -36,12 +36,7 @@ function direcciónDelÚltimoMovimiento() {
   //
   // CODIGO TEMPORARIO, POR ERROR EN OPUESTO
   //
-  dir := direcciónDelSegmentoPosterior()
-  if (dir == Norte) { ret := Sur   }
-  if (dir == Este)  { ret := Oeste }
-  if (dir == Sur)   { ret := Norte }
-  if (dir == Oeste) { ret := Este  }
-  return (ret)
+  return (opuesto_(direcciónDelSegmentoPosterior()))
 }
   
 function direcciónDelSegmentoAnterior()    { 
@@ -65,5 +60,3 @@ function direcciónCodificada(color) {
   if (nroBolitas(color) == 4) { valorARetornar := Oeste }
   return (valorARetornar)
 }
-
-
