@@ -8,58 +8,13 @@
    LICENCIA: GPL.v2.0
 */
 
-program {
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Sur)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Oeste)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Norte)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Este)
-    HacerJugadaDelPacman(Norte)
-//    HacerJugadaDelPacman(Norte)
+interactive program {
+  K_ARROW_LEFT  -> { HacerJugadaDelPacman(Oeste)       }
+  K_ARROW_RIGHT -> { HacerJugadaDelPacman(Este)        }
+  K_ARROW_UP    -> { HacerJugadaDelPacman(Norte)       }
+  K_ARROW_DOWN  -> { HacerJugadaDelPacman(Sur)         }
+  TIMEOUT(1000) -> { HacerJugadaDelFantasmaMasCopada() }
 }
-
-// interactive program {
-//   K_ARROW_LEFT  -> { HacerJugadaDelPacman(Oeste)       }
-//   K_ARROW_RIGHT -> { HacerJugadaDelPacman(Este)        }
-//   K_ARROW_UP    -> { HacerJugadaDelPacman(Norte)       }
-//   K_ARROW_DOWN  -> { HacerJugadaDelPacman(Sur)         }
-//   _             -> { HacerJugadaDelFantasmaMasCopada() }
-// }
 
 function pacman()   { return(Negro) }
 function pared()    { return(Azul)  }
@@ -92,10 +47,10 @@ procedure MoverPersonaje(personaje, dir) {
 procedure SacarPersonaje(personaje) { SacarTodas(personaje) }
 
 procedure PonerPersonajeMirandoAl(color, dir) {
-  if (dir == Norte) { PonerMuchas(1, color) }
-  if (dir == Este)  { PonerMuchas(2, color) }
-  if (dir == Sur)   { PonerMuchas(3, color) }
-  if (dir == Oeste) { PonerMuchas(4, color) }
+  if (dir == Norte) { Poner__Veces(color, 1) }
+  if (dir == Este)  { Poner__Veces(color, 2) }
+  if (dir == Sur)   { Poner__Veces(color, 3) }
+  if (dir == Oeste) { Poner__Veces(color, 4) }
 }
 
 procedure HacerJugadaDelFantasmaMasCopada() {
@@ -147,52 +102,6 @@ function hayMasPastillas() {
     return (totalPastillas > 0)
 }
 
-// ------------------
-// Ver Biblioteca del docente
-// ------------------
-// procedure BuscarPersonaje(personaje) {
-//   IrAlBorde(Oeste); IrAlBorde(Norte)
-//   BuscarEnCuadrante(personaje, Este, Sur)
-// }
-// 
-// procedure BuscarEnCuadrante(personaje, d1, d2) {
-//   anchoDelCuadrante := distanciaAlBorde(d1) 
-//   while (hayCeldaSiguiente(d1,d2) && not hay(personaje))
-//      { IrACeldaSiguiente(d1,d2,anchoDelCuadrante) }
-// }
-// 
-// function hayCeldaSiguiente(d1,d2) {
-//     return (puedeMover(d1) || puedeMover(d2))
-// }
-// 
-// procedure IrACeldaSiguiente(d1,d2,ancho) {
-//     if (puedeMover(d1)) 
-//           { Mover(d1) }
-//      else { Mover(d2)  MoverMuchas(ancho, opuesto(d1)) } 
-// }
-// 
-// function distanciaAlBorde(d) {
-//   pasosAlBorde := 0
-//   while (puedeMover(d)) {
-//       pasosAlBorde := pasosAlBorde + 1
-//       Mover(d)
-//   }
-//   return (pasosAlBorde)
-// }
-//  
-// procedure MoverMuchas(n,d) { repeat(n) { Mover(d) } }
-// procedure PonerMuchas(n,c) { repeat(n) { Poner(c) } }
-// procedure SacarMuchas(n,c) { repeat(n) { Sacar(c) } }
-// procedure SacarTodas(c)    { SacarMuchas(nroBolitas(c),c) }
-// procedure MoverSiPuede(d)  { if (puedeMover(d)) { Mover(d) } }
-// 
-// function opuesto(dir) {
-//     if (dir == Norte) { ret := Sur   }
-//     if (dir == Este)  { ret := Oeste }
-//     if (dir == Sur)   { ret := Norte }
-//     if (dir == Oeste) { ret := Este  }
-//     return (ret)    
-// }
 
 
 

@@ -4,8 +4,8 @@ procedure BuscarPersonaje_(personaje) {
 }
 
 procedure Buscar_EnCuadrante__(personaje, d1, d2) {
-  anchoDelCuadrante := distanciaAlBorde(d1) 
-  while (hayCeldaSiguiente(d1,d2) && not hay(personaje))
+  anchoDelCuadrante := distanciaAlBorde_(d1) 
+  while (hayCeldaSiguiente__(d1,d2) && not hayBolitas(personaje))
      { IrACeldaSiguiente___(d1,d2,anchoDelCuadrante) }
 }
 
@@ -16,7 +16,7 @@ function hayCeldaSiguiente__(d1,d2) {
 procedure IrACeldaSiguiente___(d1,d2,ancho) {
     if (puedeMover(d1)) 
           { Mover(d1) }
-     else { Mover(d2)  MoverMuchas__(ancho, opuesto(d1)) } 
+     else { Mover(d2)  Mover__Veces(opuesto(d1), ancho) } 
 }
 
 function distanciaAlBorde_(d) {
@@ -28,11 +28,12 @@ function distanciaAlBorde_(d) {
   return (pasosAlBorde)
 }
 
-procedure MoverMuchas__(n,d) { repeat(n) { Mover(d) } }
-procedure PonerMuchas__(n,c) { repeat(n) { Poner(c) } }
-procedure SacarMuchas__(n,c) { repeat(n) { Sacar(c) } }
-procedure SacarTodas_(c)    { SacarMuchas(nroBolitas(c),c) }
-procedure MoverSiPuede_(d)  { if (puedeMover(d)) { Mover(d) } }
+procedure MoverSiPuede_(d)   { if (puedeMover(d)) { Mover(d) } }
+procedure SacarTodas_(color) { Sacar__Veces(color, nroBolitas(color)) }
+
+procedure Poner__Veces(color, n) { repeat(n) { Poner(color) } }
+procedure Sacar__Veces(color, n) { repeat(n) { Sacar(color) } }
+procedure Mover__Veces(dir, n)   { repeat(n) { Mover(dir) } }
 
 function opuesto_(dir) {
     if (dir == Norte) { ret := Sur   }
