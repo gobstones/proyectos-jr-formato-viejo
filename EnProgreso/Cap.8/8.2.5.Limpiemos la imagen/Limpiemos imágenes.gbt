@@ -1,9 +1,3 @@
-procedure SacarTodas_(col) {
-	AuxSacarN(col,nroBolitas(col))
-}
+procedure SacarTodas_(color) {	AuxSacar__Veces(color,nroBolitas(color)) }
 
-procedure AuxSacarN(col,n) {
-	repeat(n) {
-		Sacar(col)
-	}
-}
+procedure AuxSacar__Veces(color,n) { repeat(n) { Sacar(color) } }
