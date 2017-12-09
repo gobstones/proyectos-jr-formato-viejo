@@ -28,7 +28,14 @@
                , "DefinicionDeProcedimientoParametrizado"
                , "DefinicionDeFuncionSimple"
     ],            
-	"disabled": [ 
+	"disabled": [ "Poner", "Sacar", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaSimple"
+                , "Numero"
+                , "hayBolitas", "nroBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "siguiente", "previo", "opuesto"
+                , "DefinicionDeProcedimientoParametrizado"
                 ]
   }
 }
