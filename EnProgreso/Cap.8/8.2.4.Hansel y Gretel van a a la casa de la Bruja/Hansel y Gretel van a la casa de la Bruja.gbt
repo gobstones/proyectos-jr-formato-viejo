@@ -1,6 +1,3 @@
-function miguita() { return(Rojo) }
-function llegamosALoDeLaBruja() { return (nroBolitas(Negro) == 3) }
-
 procedure AvanzarCarreta() 
 {
   cantDirEncontradas := 0
@@ -10,7 +7,7 @@ procedure AvanzarCarreta()
        dirEncontrada := dirAConsiderar
      }
   }
-  if (cantDirEncontradas == 0) { BOOM("¡No dejaste la miguita!") }
+  if (cantDirEncontradas == 0) { BOOM("¡No dejaste la miguitas!") }
   if (cantDirEncontradas >  1) { BOOM("Hay demasiadas miguitas. ¿Moviste el cabezal?") }
   Mover(dirEncontrada)
 }
@@ -21,5 +18,5 @@ function auxHaySectorDelCaminoSinMiguitaAl(dir) {
 
 function auxEsSectorDelCaminoSinMiguitaAl(dir) {
   Mover(dir)
-  return (hayBolitas(Negro) && not hayBolitas(miguita()))
+  return (hayBolitas(Negro) && not hayBolitas(miguitas()))
 }
