@@ -7,6 +7,7 @@ En esta actividad vas a programar una versión simplificada del juego del Pacman
 > Pacman es un juego de consola desarrollado en 1980, pionero de los juegos de persecución en laberintos. Ese juego y sus derivados se convirtieron en uno de los juegos clásicos más populares en existencia. 
 
   A) En primer lugar te recomendamos resolver solamente los movimientos del Pacman, y dejar el tema del Fantasma para una segunda parte. Para eso, primero tenés que entender cómo representar cada uno de los elementos, y después hacer los procedimientos que mueven al Pacman. La representación es la siguiente:
+  
   * Las paredes se representan con bolitas azules, entre 1 y 6 dependiendo de si es una pared vertical, horizontal o una de las cuatro esquinas.
   * El Pacman se representa con bolitas negras, entre 1 y 4 dependiendo de si mira hacia el Norte, Este, Sur u Oeste, respectivamente.
   * Las pastillas se representan con una bolita verde.
