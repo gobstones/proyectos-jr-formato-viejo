@@ -28,7 +28,15 @@
                , "DefinicionDeProcedimientoParametrizado"
                , "DefinicionDeFuncionSimple"
     ],            
-	"disabled": [ 
+	"disabled": [ "Mover", "Sacar", "IrAlBorde", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaSimple", "AlternativaCompleta"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico"
+                , "not", "OperadorDeNegacion"
+                , "OperadorLogico"
+                , "siguiente", "previo", "opuesto"
+                , "DefinicionDeProcedimientoParametrizado"
                 ]
   }
 }
