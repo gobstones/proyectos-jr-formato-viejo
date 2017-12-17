@@ -7,7 +7,7 @@
   "execution_speed": { "active": "high",
     "user_permissions": { "can_change_speed": true }
   },
-  "attire": { "active": "SuperLucho", "visible": true,
+  "attire": { "active": "Super Lucho cuenta", "visible": true,
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
@@ -28,7 +28,11 @@
                , "DefinicionDeProcedimientoParametrizado"
                , "DefinicionDeFuncionSimple"
     ],            
-	"disabled": [ 
+	"disabled": [ "IrAlBorde", "BOOM"
+                , "RepeticionSimple"
+                , "AlternativaCompleta"
+                , "puedeMover", "hayBolitas"
+                , "siguiente", "previo", "opuesto"
                 ]
   }
 }
