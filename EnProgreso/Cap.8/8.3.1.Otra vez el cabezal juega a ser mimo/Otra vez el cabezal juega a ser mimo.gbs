@@ -1,3 +1,5 @@
-﻿program {
+﻿program { ImitarAzulesConRojasPeroEnElEste() }
+
+procedure ImitarAzulesConRojasPeroEnElEste() {
   ...
 }

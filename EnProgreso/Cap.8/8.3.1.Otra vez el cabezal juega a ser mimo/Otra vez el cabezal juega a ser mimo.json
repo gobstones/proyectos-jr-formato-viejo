@@ -11,16 +11,35 @@
     "user_permissions": { "can_toggle_visibility": true }
   },
   "blocks": {
-	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde"
+	"visible": [ "Poner", "Mover", "Sacar", "IrAlBorde", "BOOM"
                , "Procedimientos primitivos"
                , "Mis procedimientos"
-               , "RepeticionSimple"
+               , "RepeticionSimple", "RepeticionCondicional"
+               , "AlternativaSimple", "AlternativaCompleta"
+               , "Asignacion"
                , "Color", "Direccion", "Numero"
-               , "nroBolitas"
-               , "procedures_defnoreturnnoparams", "Definicion de procedimientos simples"
-    ],            
-	"disabled": [ "Mover", "Sacar", "IrAlBorde"
-                , "Direccion", "Numero"
+               , "puedeMover", "hayBolitas", "nroBolitas"
+               , "FuncionesPrimitivas"
+               , "Mis funciones"
+               , "OperadorNumerico", "OperadorDeComparacion"
+               , "OperadorDeNegacion"
+               , "OperadorLogico"
+               , "siguiente", "previo", "opuesto"
+               , "DefinicionDeProcedimientoSimple"
+               , "DefinicionDeProcedimientoParametrizado"
+               , "DefinicionDeFuncionSimple"
+               ],            
+	"disabled": [ "Poner", "Sacar", "IrAlBorde", "BOOM"
+                , "RepeticionSimple", "RepeticionCondicional"
+                , "AlternativaSimple", "AlternativaCompleta"
+                , "Numero"
+                , "puedeMover", "hayBolitas"
+                , "OperadorNumerico", "OperadorDeComparacion"
+                , "OperadorDeNegacion"
+                , "OperadorLogico"
+                , "siguiente", "previo", "opuesto"
+                , "DefinicionDeProcedimientoParametrizado"
+                , "DefinicionDeFuncionSimple"
                 ]
   }
 }
