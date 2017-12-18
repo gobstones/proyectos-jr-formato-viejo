@@ -1,5 +1,1 @@
-procedure PonerN(col,n) {
-	repeat(n) {
-		Poner(col)
-	}
-}
+procedure Poner__Veces(color,cantidad) { repeat(cantidad) { Poner(color) } }
