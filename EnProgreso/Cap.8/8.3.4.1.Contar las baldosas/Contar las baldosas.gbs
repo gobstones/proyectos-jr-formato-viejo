@@ -1,15 +1,12 @@
-﻿program { InformarLaCantidadDeBaldosas() }
+﻿program { ... }
 
 procedure InformarLaCantidadDeBaldosas() {
-  cantidadDeBaldosasYaVistas := 0
-  ComenzarElRecorrido()
-  while (not (esLaÚltimaBaldosa())) {
-    cantidadDeBaldosasYaVistas := cantidadDeBaldosasYaVistas + 1
-    PasarALaSiguienteBaldosa()
-  }
-  cantidadDeBaldosasYaVistas := cantidadDeBaldosasYaVistas + 1
   IrALaEsquinaSuroeste()
-  Poner__Veces(Negro, cantidadDeBaldosasYaVistas)
+  Poner__Veces(Negro, ...)
+}
+
+function cantidadDeBaldosas() {
+  ...
 }
 
 procedure ComenzarElRecorrido() { IrALaEsquinaSuroeste() }

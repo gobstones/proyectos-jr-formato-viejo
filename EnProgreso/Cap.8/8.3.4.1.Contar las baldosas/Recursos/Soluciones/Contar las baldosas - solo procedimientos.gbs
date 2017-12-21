@@ -1,8 +1,8 @@
 ﻿program { InformarLaCantidadDeBaldosas() }
 
 procedure InformarLaCantidadDeBaldosas() {
-  cantidadDeBaldosasYaVistas := 0
   ComenzarElRecorrido()
+  cantidadDeBaldosasYaVistas := 0
   while (not (esLaÚltimaBaldosa())) {
     cantidadDeBaldosasYaVistas := cantidadDeBaldosasYaVistas + 1
     PasarALaSiguienteBaldosa()
