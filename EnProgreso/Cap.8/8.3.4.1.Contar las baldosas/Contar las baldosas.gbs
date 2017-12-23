@@ -11,15 +11,10 @@ function cantidadDeBaldosas() {
 
 procedure ComenzarElRecorrido() { IrALaEsquinaSuroeste() }
 
-function esLaÚltimaBaldosa() { return (not(puedeMover(Este)) && not(puedeMover(Norte))) }
+function esLaÚltimaBaldosa() { return (...) }
 
 procedure PasarALaSiguienteBaldosa() {
-  if (puedeMover(Este)) 
-        { Mover(Este) } 
-   else { 
-          IrAlBorde(Oeste)
-          Mover(Norte)
-        }
+  ...
 }
 
 procedure IrALaEsquinaSuroeste() {
