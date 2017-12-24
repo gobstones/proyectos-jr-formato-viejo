@@ -4,7 +4,7 @@
   "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
   },
-  "execution_speed": { "active": "high",
+  "execution_speed": { "active": "instantaneous",
     "user_permissions": { "can_change_speed": true }
   },
   "attire": { "active": "Radar", "visible": true,

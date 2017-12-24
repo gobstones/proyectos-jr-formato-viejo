@@ -1,5 +1,1 @@
-procedure MoverN__(n,dir) {
-	repeat(n) {
-		Mover(dir)
-	}
-}
+procedure Mover__Veces(dirección, cantidad) { repeat(cantidad) { Mover(dirección) } }
