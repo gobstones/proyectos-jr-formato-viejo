@@ -1,5 +1,5 @@
 {
-  "name": "Contar las baldosas",
+  "name": "Contar las baldosas rajadas",
   "library": { "visible": false },
   "board": { "active": 1, "initial_board_source": "random", "visible_edition": true,
     "user_permissions": { "can_change_source": false, "can_edit_board": false }
