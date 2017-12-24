@@ -1,7 +1,7 @@
 ﻿program { EncenderYContar() }
 
 procedure EncenderYContar() {
-  IrAlInicioDelReocrrido()
+  IrAlInicioDelRecorrido()
   cantidadDeLucesQueYoPrendí := 0
   while (not (esLaÚltimaCelda())) {
     if (esLuzApagada()) {
@@ -14,11 +14,11 @@ procedure EncenderYContar() {
     EncenderLuz()
     cantidadDeLucesQueYoPrendí := cantidadDeLucesQueYoPrendí + 1
   }
-  IrAlInicioDelReocrrido()
+  IrAlInicioDelRecorrido()
   Poner__Veces(Rojo, cantidadDeLucesQueYoPrendí)
 }
 
-procedure IrAlInicioDelReocrrido() {
+procedure IrAlInicioDelRecorrido() {
   LlevarALuchoAlBorde(Oeste)
   LlevarALuchoAlBorde(Sur)
 }
@@ -32,9 +32,10 @@ procedure PasarALaSiguienteCelda() {
        }
 }
 
-function esLaÚltimaCelda() { return (not(puedeMover(Este)) && not(puedeMover(Norte))) }
 function esLuzApagada() { return (nroBolitas(Azul) == 1) }
 procedure EncenderLuz() { Poner(Azul) }
+function esLaÚltimaCelda() 
+  { return (not(puedeMover(Este)) && not(puedeMover(Norte))) }
 
 procedure PonerALucho() { Poner(Negro) }
 procedure SacarALucho() { Sacar(Negro) }
